@@ -34,13 +34,12 @@ fi
 echo -e "${GREEN}[✔] Arch Linux détecté${NC}"
 
 # ══════════════════════════════════════════════════════════════════
-#  2. INSTALLATION DES PAQUETS
+#  2. INSTALLATION DES PAQUETS OFFICIELS
 # ══════════════════════════════════════════════════════════════════
 
 echo ""
-echo -e "${CYAN}[1/5] Installation des paquets officiels...${NC}"
+echo -e "${CYAN}[1/6] Installation des paquets officiels...${NC}"
 
-# Paquets essentiels Hyprland
 PACMAN_PKGS=(
     # Hyprland & composants
     hyprland
@@ -115,7 +114,7 @@ sudo pacman -S --needed --noconfirm "${PACMAN_PKGS[@]}"
 # ══════════════════════════════════════════════════════════════════
 
 echo ""
-echo -e "${CYAN}[2/5] Installation de yay et paquets AUR...${NC}"
+echo -e "${CYAN}[2/6] Installation de yay et paquets AUR...${NC}"
 
 if ! command -v yay &> /dev/null; then
     echo -e "${YELLOW}Installation de yay...${NC}"
@@ -145,11 +144,8 @@ AUR_PKGS=(
     ttf-red-hat-display
     ttf-red-hat-mono
 
-    # Spicetify (thème Spotify)
+    # Spicetify
     spicetify-cli
-
-    # Lock screen
-    # blazinlock  # décommente si c'est un paquet AUR
 )
 
 echo -e "${YELLOW}Installation de ${#AUR_PKGS[@]} paquets AUR...${NC}"
@@ -160,14 +156,13 @@ yay -S --needed --noconfirm "${AUR_PKGS[@]}"
 # ══════════════════════════════════════════════════════════════════
 
 echo ""
-echo -e "${CYAN}[3/5] Déploiement des dotfiles...${NC}"
+echo -e "${CYAN}[3/6] Déploiement des dotfiles...${NC}"
 
 # Backup des configs existantes
 BACKUP_DIR="$HOME/.config-backup-$(date +%Y%m%d_%H%M%S)"
 echo -e "${YELLOW}Backup des configs actuelles dans $BACKUP_DIR${NC}"
 mkdir -p "$BACKUP_DIR"
 
-# Liste des dossiers à copier
 CONFIG_DIRS=(
     hypr
     waybar
@@ -188,11 +183,9 @@ CONFIG_DIRS=(
 
 for dir in "${CONFIG_DIRS[@]}"; do
     if [ -d "$DOTS/.config/$dir" ]; then
-        # Backup si existant
         if [ -d "$HOME/.config/$dir" ]; then
             cp -r "$HOME/.config/$dir" "$BACKUP_DIR/"
         fi
-        # Copie
         cp -r "$DOTS/.config/$dir" "$HOME/.config/"
         echo -e "${GREEN}  [✔] $dir${NC}"
     else
@@ -201,11 +194,28 @@ for dir in "${CONFIG_DIRS[@]}"; do
 done
 
 # ══════════════════════════════════════════════════════════════════
-#  5. SDDM
+#  5. WALLPAPERS
 # ══════════════════════════════════════════════════════════════════
 
 echo ""
-echo -e "${CYAN}[4/5] Configuration SDDM...${NC}"
+echo -e "${CYAN}[4/6] Installation des wallpapers...${NC}"
+
+if [ -d "$DOTS/Wallpapers" ]; then
+    cp -r "$DOTS/Wallpapers" "$HOME/"
+    echo -e "${GREEN}  [✔] Wallpapers copiés dans ~/Wallpapers${NC}"
+fi
+
+if [ -d "$DOTS/WallpapersLock" ]; then
+    cp -r "$DOTS/WallpapersLock" "$HOME/"
+    echo -e "${GREEN}  [✔] WallpapersLock copiés dans ~/WallpapersLock${NC}"
+fi
+
+# ══════════════════════════════════════════════════════════════════
+#  6. SDDM
+# ══════════════════════════════════════════════════════════════════
+
+echo ""
+echo -e "${CYAN}[5/6] Configuration SDDM...${NC}"
 
 if [ -f "$DOTS/sddm/sddm.conf" ]; then
     sudo cp "$DOTS/sddm/sddm.conf" /etc/sddm.conf
@@ -217,24 +227,23 @@ if [ -d "$DOTS/sddm/theme" ]; then
     echo -e "${GREEN}  [✔] Thème SDDM 'silent' installé${NC}"
 fi
 
-# Activer SDDM
 sudo systemctl enable sddm
 echo -e "${GREEN}  [✔] SDDM activé${NC}"
 
 # ══════════════════════════════════════════════════════════════════
-#  6. FINITIONS
+#  7. FINITIONS
 # ══════════════════════════════════════════════════════════════════
 
 echo ""
-echo -e "${CYAN}[5/5] Finitions...${NC}"
+echo -e "${CYAN}[6/6] Finitions...${NC}"
 
-# Définir fish comme shell par défaut
+# Fish comme shell par défaut
 if command -v fish &> /dev/null; then
-    chsh -s $(which fish)
+    chsh -s "$(which fish)"
     echo -e "${GREEN}  [✔] Fish défini comme shell par défaut${NC}"
 fi
 
-# Activer les services
+# Services
 sudo systemctl enable NetworkManager
 sudo systemctl enable bluetooth
 echo -e "${GREEN}  [✔] Services activés (NetworkManager, Bluetooth)${NC}"
@@ -248,17 +257,15 @@ echo -e "${CYAN}"
 echo "╔══════════════════════════════════════════════════════════╗"
 echo "║  ✅ Installation terminée !                             ║"
 echo "║                                                          ║"
-echo "║  → Backup des anciennes configs: $BACKUP_DIR            ║"
-echo "║                                                          ║"
 echo "║  Prochaines étapes:                                      ║"
-echo "║  1. Reboot ton PC                                        ║"
-echo "║  2. SDDM va se lancer automatiquement                   ║"
-echo "║  3. Connecte-toi et Hyprland démarre                    ║"
-echo "║                                                          ║"
-echo "║  Notes:                                                  ║"
-echo "║  • Lance 'wal -i /chemin/wallpaper.jpg' pour les        ║"
-echo "║    couleurs pywal                                        ║"
-echo "║  • Vérifie tes monitors dans hypr/monitors.conf         ║"
-echo "║  • Si NVIDIA: vérifie hypr/environment.conf             ║"
+echo "║  1. Configure tes drivers GPU si nécessaire              ║"
+echo "║     (NVIDIA/Intel/AMD selon ta machine)                  ║"
+echo "║  2. Édite ~/.config/hypr/environment.conf pour           ║"
+echo "║     adapter les variables GPU à ta config                ║"
+echo "║  3. Édite ~/.config/hypr/monitors.conf pour              ║"
+echo "║     tes écrans                                           ║"
+echo "║  4. Lance 'wal -i ~/Wallpapers/ton_wall.jpg'            ║"
+echo "║     pour générer les couleurs pywal                      ║"
+echo "║  5. Reboot et profite !                                  ║"
 echo "╚══════════════════════════════════════════════════════════╝"
 echo -e "${NC}"
