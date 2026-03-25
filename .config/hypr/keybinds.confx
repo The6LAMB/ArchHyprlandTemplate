@@ -1,0 +1,224 @@
+# ================================================
+# KEYBINDS - Raccourcis clavier
+# ================================================
+# Configuration fusionnée : tes raccourcis + logiciels du dotfile
+# ================================================
+
+# Modificateurs
+$mod = SUPER
+$mainMod = SUPER
+$clt = CTRL ALT
+$scripts = $HOME/.config/hypr/scripts
+
+# ================================================
+# APPLICATIONS PRINCIPALES
+# ================================================
+
+# Terminal
+bind = $clt, T, exec, kitty
+bind = $mod, RETURN, exec, kitty
+bind = $mod SHIFT, RETURN, exec, kitty ranger
+
+# Navigateur
+bind = $mod, B, exec, firefox
+
+# Fichiers
+bind = $mod, D, exec, thunar
+
+# Musique
+bind = $mod, S, exec, spotify-launcher
+
+# Launcher (Rofi)
+bind = $mod, TAB, exec, $HOME/.config/rofi/launchers/type-1/launcher.sh
+
+# Power menu
+bind = $mod, Delete, exec, $HOME/.config/rofi/powermenu/type-1/powermenu.sh
+
+# Menus Rofi du dotfile (en plus)
+bind = $mod, SPACE, exec, $HOME/.config/rofi/scripts/websearch
+bind = $mod, SEMICOLON, exec, $HOME/.config/rofi/scripts/emoji
+bind = $mod, W, exec, $HOME/.config/rofi/scripts/wallpaper
+bind = $mod, X, exec, $HOME/.config/rofi/scripts/powermenu
+
+# Lock screen
+bind = $mod, L, exec, hyprlock
+bind = $mod SHIFT, X, exec, $scripts/lock
+
+# ================================================
+# APPLICATIONS ADDITIONNELLES (CTRL + ALT)
+# ================================================
+
+bind = $clt, B, exec, thunar
+bind = $clt, C, exec, code
+bind = $clt, D, exec, discord
+bind = $clt, O, exec, obsidian
+bind = $clt, T, exec, telegram-desktop
+bind = $clt, V, exec, code
+bind = $clt, W, exec, brave
+
+# Si tu veux garder firefox-developer-edition du dotfile
+# bind = $clt, F, exec, firefox-developer-edition https://facebook.com
+# bind = $clt, Y, exec, firefox-developer-edition https://youtube.com
+
+# ================================================
+# OUTILS
+# ================================================
+
+# Color picker
+bind = CTRL SHIFT, O, exec, hyprpicker
+
+# Profil ASUS (touche spéciale)
+bind = , XF86Launch4, exec, $scripts/toggle_asus_mode.sh
+
+# ================================================
+# GESTION DES FENÊTRES
+# ================================================
+
+bind = $mod, Q, killactive
+bind = $mod, V, togglefloating
+bind = $mod, F, fullscreen, 0  # Fullscreen complet
+bind = $mod, M, fullscreen, 1  # Maximiser
+bind = $mod, P, pseudo
+bind = $mod, J, togglesplit
+
+# ================================================
+# NAVIGATION
+# ================================================
+
+# Déplacer le focus avec les flèches
+bind = $mod, left, movefocus, l
+bind = $mod, right, movefocus, r
+bind = $mod, up, movefocus, u
+bind = $mod, down, movefocus, d
+
+# Déplacer le focus avec hjkl (vim-like)
+bind = $mod, h, movefocus, l
+bind = $mod, l, movefocus, r
+bind = $mod, k, movefocus, u
+bind = $mod, j, movefocus, d
+
+# Déplacer les fenêtres
+bind = $mod SHIFT, left, movewindow, l
+bind = $mod SHIFT, right, movewindow, r
+bind = $mod SHIFT, up, movewindow, u
+bind = $mod SHIFT, down, movewindow, d
+
+# Déplacer les fenêtres (vim-like)
+bind = $mod SHIFT, h, movewindow, l
+bind = $mod SHIFT, l, movewindow, r
+bind = $mod SHIFT, k, movewindow, u
+bind = $mod SHIFT, j, movewindow, d
+
+# Redimensionner les fenêtres
+#bind = $mod CTRL, left, resizeactive, -50 0
+#bind = $mod CTRL, right, resizeactive, 50 0
+#bind = $mod CTRL, up, resizeactive, 0 -50
+#bind = $mod CTRL, down, resizeactive, 0 50
+
+# ================================================
+# WORKSPACES
+# ================================================
+
+# Changer de workspace (1-10)
+bind = $mod, 1, workspace, 1
+bind = $mod, 2, workspace, 2
+bind = $mod, 3, workspace, 3
+bind = $mod, 4, workspace, 4
+bind = $mod, 5, workspace, 5
+bind = $mod, 6, workspace, 6
+bind = $mod, 7, workspace, 7
+bind = $mod, 8, workspace, 8
+bind = $mod, 9, workspace, 9
+bind = $mod, 0, workspace, 10
+
+# Navigation rapide entre workspaces
+bind = $mod CTRL, left, workspace, e-1    # Workspace précédent
+bind = $mod CTRL, right, workspace, e+1   # Workspace suivant
+
+# Déplacer la fenêtre vers un workspace (avec focus)
+bind = $mod SHIFT, 1, movetoworkspace, 1
+bind = $mod SHIFT, 2, movetoworkspace, 2
+bind = $mod SHIFT, 3, movetoworkspace, 3
+bind = $mod SHIFT, 4, movetoworkspace, 4
+bind = $mod SHIFT, 5, movetoworkspace, 5
+bind = $mod SHIFT, 6, movetoworkspace, 6
+bind = $mod SHIFT, 7, movetoworkspace, 7
+bind = $mod SHIFT, 8, movetoworkspace, 8
+bind = $mod SHIFT, 9, movetoworkspace, 9
+bind = $mod SHIFT, 0, movetoworkspace, 10
+
+# Naviguer avec la molette
+bind = $mod, mouse_down, workspace, e+1
+bind = $mod, mouse_up, workspace, e-1
+
+# ================================================
+# SOURIS
+# ================================================
+
+bindm = $mod, mouse:272, movewindow
+bindm = $mod, mouse:273, resizewindow
+
+# ================================================
+# CAPTURES D'ÉCRAN
+# ================================================
+
+# Capture avec grim + slurp + swappy
+bind = , PRINT, exec, grim -g "$(slurp)" - | swappy -f -
+bind = SHIFT, PRINT, exec, grim ~/Images/screenshot_$(date +%Y%m%d_%H%M%S).png
+
+# OU utiliser les scripts du dotfile
+bind = $mod, PRINT, exec, $scripts/screenshot --now
+bind = $mod SHIFT, PRINT, exec, $scripts/screenshot --area
+
+# ================================================
+# LUMINOSITÉ ÉCRAN
+# ================================================
+
+# Avec brightnessctl
+bind = , XF86MonBrightnessUp, exec, brightnessctl set +5%
+bind = , XF86MonBrightnessDown, exec, brightnessctl set 5%-
+
+# OU avec les scripts du dotfile
+# bind = , XF86MonBrightnessUp, exec, $scripts/brightness --inc
+# bind = , XF86MonBrightnessDown, exec, $scripts/brightness --dec
+
+# ================================================
+# LUMINOSITÉ CLAVIER (ASUS)
+# ================================================
+
+bind = , XF86KbdBrightnessUp, exec, $scripts/kbd_up.sh
+bind = , XF86KbdBrightnessDown, exec, $scripts/kbd_down.sh
+
+# ================================================
+# AUDIO / VOLUME
+# ================================================
+
+# Avec pactl/wpctl
+bind = , XF86AudioRaiseVolume, exec, pactl set-sink-volume @DEFAULT_SINK@ +5%
+bind = , XF86AudioLowerVolume, exec, pactl set-sink-volume @DEFAULT_SINK@ -5%
+bind = , XF86AudioMute, exec, wpctl set-mute @DEFAULT_SINK@ toggle
+
+# OU avec les scripts du dotfile
+# bind = , XF86AudioRaiseVolume, exec, $scripts/volume --inc
+# bind = , XF86AudioLowerVolume, exec, $scripts/volume --dec
+# bind = , XF86AudioMute, exec, $scripts/volume --toggle
+
+# Contrôles média
+bind = , XF86AudioPlay, exec, playerctl play-pause
+bind = , XF86AudioPause, exec, playerctl pause
+bind = , XF86AudioNext, exec, playerctl next
+bind = , XF86AudioPrev, exec, playerctl previous
+
+# ================================================
+# WALLPAPER
+# ================================================
+
+# Script du dotfile (en plus)
+# bind = $mod, W, exec, $HOME/.config/rofi/scripts/wallpaper
+
+# ================================================
+# SESSION
+# ================================================
+
+# Quitter Hyprland
+bind = $mod SHIFT, E, exit

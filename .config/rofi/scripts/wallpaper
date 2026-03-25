@@ -1,0 +1,23 @@
+#!/bin/bash
+export PATH="${PATH}:${HOME}/.local/bin/"
+
+dir="$HOME/.config/rofi/launchers/type-1"
+theme='style-1'
+wallpapers="$HOME/Wallpapers"
+
+# Sélection avec rofi
+image="$(ls "$wallpapers" | rofi -dmenu -i -p "  Select wallpaper: " -theme ${dir}/${theme}.rasi)"
+[[ -z "$image" ]] && exit 1
+
+# Gestion sous-dossiers
+if [[ -d "$wallpapers/$image" ]]; then
+    subimage="$(ls "$wallpapers/$image" | rofi -dmenu -i -p "  Select file: " -theme ${dir}/${theme}.rasi)"
+    [[ -z "$subimage" ]] && exit 1
+    wallpaper="$wallpapers/$image/$subimage"
+else
+    wallpaper="$wallpapers/$image"
+fi
+[[ ! -f "$wallpaper" ]] && exit 1
+
+# Appel initWallpaper avec le wallpaper choisi
+bash ~/.config/hypr/scripts/initWallpaper "$wallpaper"

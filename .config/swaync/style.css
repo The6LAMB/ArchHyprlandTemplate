@@ -1,0 +1,85 @@
+@import url("/home/lamb/.cache/wal/colors.css");
+
+:root {
+--cc-bg-pywal: var(--color0)ff; /* Fond sombre Pywal + Opaque (ff) */
+  --text-pywal: var(--color7)ff; /* Texte clair Pywal + Opaque (ff) */
+  --accent-pywal: var(--color4)ff; /* Accent Pywal (pour les bordures/sélection) */
+
+  /* Ancien format (vous pouvez les supprimer ou les réutiliser) */
+  --cc-bg: var(--cc-bg-pywal);
+  --noti-border-color: rgba(255, 255, 255, 0.8); /* Optionnel: Garder fixe ou utiliser --accent-pywal */
+  --noti-bg: var(--color0); /* Le fond pur (Hex) */
+  --noti-bg-alpha: 0.9; /* Non utilisé si on utilise l'opacité de Hyprland */
+  --noti-bg-darker: var(--color0);
+  --noti-bg-hover: var(--color0); /* Généralement couleur 0, mais légèrement plus clair si possible */
+  --noti-bg-focus: var(--accent-pywal);
+  --noti-close-bg: var(--color1); /* Une couleur d'accent (rouge) pour le bouton de fermeture */
+  --noti-close-bg-hover: var(--color9);
+
+  /* Remplacement des couleurs fixes par Pywal */
+  --text-color: var(--text-pywal);
+  --text-color-disabled: var(--color8)ff; /* Gris Pywal */
+  --bg-selected: var(--accent-pywal); 
+
+  /* Garder les variables de dimension et d'effet */
+  --notification-icon-size: 64px;
+  --notification-app-icon-size: calc(var(--notification-icon-size) / 3);
+  --notification-group-icon-size: 32px;
+  --border: 1px solid var(--noti-border-color);
+  --border-radius: 12px;
+  --notification-shadow: 0 0 0 1px var(--noti-border-color),
+    0 1px 3px 1px rgba(0, 0, 0, 0.7), 0 2px 6px 2px rgba(0, 0, 0, 0.3);
+  --font-size-body: 15px;
+  --font-size-summary: 16px;
+  --hover-tranistion: background 0.15s ease-in-out;
+  --group-collapse-tranistion: opacity 400ms ease-in-out;
+  --hover-transition: var(--hover-tranistion);
+  --group-collapse-transition: var(--group-collapse-tranistion);
+}
+
+.control-center {
+  background: var(--cc-bg-pywal);
+}
+
+.widgets > .widget,
+.widget-mpris > carouselindicatordots,
+.widget-mpris > box > button {
+  background: var(--widget-background);
+  border-radius: var(--border-radius);
+  padding: calc(var(--border-radius) / 2);
+  border: var(--border);
+}
+
+.control-center-list-placeholder {
+  padding: var(--border-radius);
+}
+
+.notification-group {
+  border-radius: var(--border-radius);
+  padding: 8px;
+}
+
+.widget.widget-mpris {
+  border-radius: 0;
+  padding: 0;
+  border: none;
+}
+.widget.widget-mpris > carouselindicatordots {
+  --dots-padding: 4px;
+  padding: var(--dots-padding);
+  padding-left: var(--dots-padding);
+  padding-right: calc(6px + var(--dots-padding));
+  margin: 0;
+  margin-top: var(--padding);
+}
+.widget-mpris > box > button:hover {
+  background: rgba(46, 46, 46, 1);
+}
+.widget-mpris-player {
+  box-shadow: none;
+  border: var(--border);
+  margin: 0 var(--padding);
+}
+.widget-mpris-player:only-child {
+  margin: 0;
+}

@@ -1,0 +1,40 @@
+#!/bin/bash
+wallpaper_dir="$HOME/Wallpapers"
+
+if [[ -n "$1" ]]; then
+    wallpaper="$1"
+else
+    if [ ! -d "$wallpaper_dir" ]; then
+        echo "Error: Wallpaper directory not found"
+        exit 1
+    fi
+    wallpaper=$(find "$wallpaper_dir" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" -o -iname "*.webp" \) | shuf -n 1)
+    [[ -z "$wallpaper" ]] && echo "Error: No wallpapers found" && exit 1
+fi
+
+echo "Selected wallpaper: $wallpaper"
+
+swww img "$wallpaper" --transition-type simple --transition-fps 60 --transition-duration 0.3
+
+(
+    wal_input="$wallpaper"
+
+    if [[ "$(file --mime-type -b "$wallpaper")" == "image/gif" ]]; then
+        wal_input="/tmp/init_wallpaper_frame_$$.png"
+        ffmpeg -i "$wallpaper" -vframes 1 "$wal_input" -y -loglevel quiet 2>/dev/null
+    fi
+
+    [[ -f ~/.cache/wal/mode ]] && [[ "$(<~/.cache/wal/mode)" == "light" ]] \
+        && wal -i "$wal_input" -l -q -n \
+        || wal -i "$wal_input" -q -n
+
+    [[ "$wal_input" != "$wallpaper" ]] && rm -f "$wal_input"
+
+    command -v pywal-discord &>/dev/null && pywal-discord -t default &
+    command -v wal-telegram &>/dev/null && wal-telegram --wal &
+    [[ -f "$HOME/.config/mako/update-colors.sh" ]] && . "$HOME/.config/mako/update-colors.sh" &
+) &
+
+wait
+bash ~/.config/hypr/scripts/initRofi
+echo "Wallpaper applied successfully!"

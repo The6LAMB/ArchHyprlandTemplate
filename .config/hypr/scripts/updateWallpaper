@@ -1,0 +1,5 @@
+#!/bin/bash
+while true; do
+    bash ~/.config/hypr/scripts/initWallpaper
+    sleep 300
+done

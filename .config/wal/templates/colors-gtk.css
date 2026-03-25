@@ -1,0 +1,52 @@
+/* Importer les couleurs Pywal */
+@import url("file:~/.cache/wal/colors-dolphin.conf");
+
+/* Configuration générale */
+* {
+    /* Assurez-vous que @background est une couleur valide (exemple avec rgba) */
+    background-color: rgba(29, 31, 33, 0.5); /* Utilisation de rgba(29, 31, 33, 0.5) pour @background (couleur #1d1f21) */
+    color: @foreground; /* Assurez-vous que @foreground est bien définie dans colors-kitty.conf */
+    font-family: "JetBrains Mono Nerd Font";
+    font-size: 14px;
+    min-height: 0;
+}
+
+/* Boutons */
+button, GtkButton {
+    background-color: @color0; /* Assurez-vous que @color0 est bien définie dans colors-kitty.conf */
+    color: @foreground;
+}
+
+button:active, GtkButton:active {
+    background-color: @color1; /* Assurez-vous que @color1 est bien définie dans colors-kitty.conf */
+}
+
+/* Menus */
+GtkMenu {
+    background-color: @color0;
+    color: @foreground;
+}
+
+/* Fenêtres */
+GtkWindow, GtkDialog {
+    background-color: @background; /* Assurez-vous que @background est bien définie dans colors-kitty.conf */
+    color: @foreground;
+}
+
+/* Liste dans Thunar */
+GtkTreeView, GtkTreeViewColumn {
+    background-color: @color0;
+    color: @foreground;
+}
+
+/* Surlignage d'une ligne */
+GtkTreeView row:hover {
+    background-color: @color1; /* Assurez-vous que @color1 est bien définie dans colors-kitty.conf */
+    color: @foreground;
+}
+
+/* Ligne sélectionnée */
+GtkTreeView:selected {
+    background-color: @color2; /* Assurez-vous que @color2 est bien définie dans colors-kitty.conf */
+    color: @foreground;
+}
