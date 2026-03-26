@@ -200,6 +200,12 @@ for dir in "${CONFIG_DIRS[@]}"; do
     fi
 done
 
+# Remplace /home/lamb par le home du user courant dans les configs
+echo -e "${CYAN}  Adaptation des chemins utilisateur...${NC}"
+find "$HOME/.config" -type f \( -name "*.css" -o -name "*.ini" -o -name "*.sh" -o -name "*.conf" -o -name "*.fish" -o -name "*.xml" -o -name "fish_variables*" \) \
+    -exec sed -i "s|/home/lamb|$HOME|g" {} + 2>/dev/null
+echo -e "${GREEN}  [✔] Chemins adaptés pour $USER${NC}"
+
 # ══════════════════════════════════════════════════════════════════
 #  5. WALLPAPERS + CACHE WAL + PYWAL
 # ══════════════════════════════════════════════════════════════════

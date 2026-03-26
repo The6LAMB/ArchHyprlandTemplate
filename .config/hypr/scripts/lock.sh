@@ -8,4 +8,4 @@ WALLPAPER=$(find "$WALLPAPER_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" \)
 
 # Ceci est le point de connexion entre le script et hyprlock
 cp "$WALLPAPER" /usr/share/sddm/themes/Makima-SDDM/Backgrounds/background.png
-cp "$WALLPAPER" /home/lamb/.config/hypr/hyprlock.png
+cp "$WALLPAPER" $HOME/.config/hypr/hyprlock.png

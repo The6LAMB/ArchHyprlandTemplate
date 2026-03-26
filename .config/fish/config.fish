@@ -32,7 +32,7 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 
 # Configuration JFlex pour Fish Shell
 # 'set -gx' signifie set (définir), g (global), x (exportable)
-set -gx JFLEX_HOME "/home/lamb/Documents/hepia/second_year/Embarquer/Technique_de_compilation/jflex-1.9.1/"
+set -gx JFLEX_HOME "$HOME/Documents/hepia/second_year/Embarquer/Technique_de_compilation/jflex-1.9.1/"
 set -gx PATH "$PATH" "$JFLEX_HOME/bin"
 
 #racourcie
@@ -42,4 +42,4 @@ bind \e exit
 set -x GTK_THEME wal
 
 # Created by `pipx` on 2025-11-10 13:56:41
-set PATH $PATH /home/lamb/.local/bin
+set PATH $PATH $HOME/.local/bin
