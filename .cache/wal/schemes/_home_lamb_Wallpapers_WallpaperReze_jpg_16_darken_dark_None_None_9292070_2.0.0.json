@@ -1,0 +1,28 @@
+{
+    "checksum": "c468a97f4d661b481c5dda2cf8242ef9",
+    "wallpaper": "/home/lamb/Wallpapers/WallpaperReze.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#17090f",
+        "foreground": "#c5c1c3",
+        "cursor": "#c5c1c3"
+    },
+    "colors": {
+        "color0": "#17090f",
+        "color1": "#4d2b31",
+        "color2": "#523539",
+        "color3": "#96262d",
+        "color4": "#793c3d",
+        "color5": "#b44d47",
+        "color6": "#bc6e56",
+        "color7": "#988d92",
+        "color8": "#6d5962",
+        "color9": "#673A42",
+        "color10": "#6E474D",
+        "color11": "#C8333C",
+        "color12": "#A25152",
+        "color13": "#F0675F",
+        "color14": "#FB9373",
+        "color15": "#c5c1c3"
+    }
+}

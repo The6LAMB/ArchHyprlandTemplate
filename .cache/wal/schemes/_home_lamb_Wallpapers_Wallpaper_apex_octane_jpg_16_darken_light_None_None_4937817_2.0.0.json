@@ -1,0 +1,28 @@
+{
+    "checksum": "a7bca9ac06f9cfce43686e56d79279d8",
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/apex_octane.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f2f2f2",
+        "foreground": "#3c3c3c",
+        "cursor": "#3c3c3c"
+    },
+    "colors": {
+        "color0": "#f2f2f2",
+        "color1": "#bb7c4c",
+        "color2": "#2d4c8c",
+        "color3": "#4b456c",
+        "color4": "#78507a",
+        "color5": "#ab5b84",
+        "color6": "#4d6d8e",
+        "color7": "#797979",
+        "color8": "#b5b5b5",
+        "color9": "#FAA666",
+        "color10": "#3C66BB",
+        "color11": "#645C90",
+        "color12": "#A16BA3",
+        "color13": "#E57AB1",
+        "color14": "#6792BE",
+        "color15": "#3c3c3c"
+    }
+}

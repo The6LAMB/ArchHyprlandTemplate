@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/arcade_decay_red.png",
+    "alpha": "100",
+    "special": {
+        "background": "#f1f4f3",
+        "foreground": "#11141A",
+        "cursor": "#11141A"
+    },
+    "colors": {
+        "color0": "#f1f4f3",
+        "color1": "#545861",
+        "color2": "#843E45",
+        "color3": "#9E555B",
+        "color4": "#DB5F65",
+        "color5": "#838A7A",
+        "color6": "#709E8E",
+        "color7": "#11141A",
+        "color8": "#616d6c",
+        "color9": "#545861",
+        "color10": "#843E45",
+        "color11": "#9E555B",
+        "color12": "#DB5F65",
+        "color13": "#838A7A",
+        "color14": "#709E8E",
+        "color15": "#11141A"
+    }
+}

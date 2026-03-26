@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/vzx1iylm1my11.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fefdfd",
+        "foreground": "#140A09",
+        "cursor": "#140A09"
+    },
+    "colors": {
+        "color0": "#fefdfd",
+        "color1": "#AD5147",
+        "color2": "#9D6158",
+        "color3": "#CF8E71",
+        "color4": "#BC768B",
+        "color5": "#D9AA9B",
+        "color6": "#D5B6A5",
+        "color7": "#140A09",
+        "color8": "#979492",
+        "color9": "#AD5147",
+        "color10": "#9D6158",
+        "color11": "#CF8E71",
+        "color12": "#BC768B",
+        "color13": "#D9AA9B",
+        "color14": "#D5B6A5",
+        "color15": "#140A09"
+    }
+}

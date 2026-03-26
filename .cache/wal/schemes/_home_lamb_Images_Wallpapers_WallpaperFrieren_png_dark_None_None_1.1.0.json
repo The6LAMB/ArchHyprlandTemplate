@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Images/Wallpapers/WallpaperFrieren.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0C1119",
+        "foreground": "#e9ddce",
+        "cursor": "#e9ddce"
+    },
+    "colors": {
+        "color0": "#0C1119",
+        "color1": "#B13B3A",
+        "color2": "#906D69",
+        "color3": "#C29472",
+        "color4": "#8A7C83",
+        "color5": "#A9958D",
+        "color6": "#D1AE9C",
+        "color7": "#e9ddce",
+        "color8": "#a39a90",
+        "color9": "#B13B3A",
+        "color10": "#906D69",
+        "color11": "#C29472",
+        "color12": "#8A7C83",
+        "color13": "#A9958D",
+        "color14": "#D1AE9C",
+        "color15": "#e9ddce"
+    }
+}

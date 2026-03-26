@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/HZpMyE3.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fefefe",
+        "foreground": "#0D0D0D",
+        "cursor": "#0D0D0D"
+    },
+    "colors": {
+        "color0": "#fefefe",
+        "color1": "#83807F",
+        "color2": "#909090",
+        "color3": "#A59C9A",
+        "color4": "#B2B1B1",
+        "color5": "#D0ADAD",
+        "color6": "#D0D0D0",
+        "color7": "#0D0D0D",
+        "color8": "#979797",
+        "color9": "#83807F",
+        "color10": "#909090",
+        "color11": "#A59C9A",
+        "color12": "#B2B1B1",
+        "color13": "#D0ADAD",
+        "color14": "#D0D0D0",
+        "color15": "#0D0D0D"
+    }
+}

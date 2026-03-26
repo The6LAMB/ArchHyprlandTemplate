@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/__enterprise_azur_lane_drawn_by_bang5410__6781647ea1cd0b2f7651f52e0aa2c355.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#161007",
+        "foreground": "#f4f1df",
+        "cursor": "#f4f1df"
+    },
+    "colors": {
+        "color0": "#161007",
+        "color1": "#DFAB62",
+        "color2": "#F9DA66",
+        "color3": "#6EA687",
+        "color4": "#ACBC97",
+        "color5": "#F8E49F",
+        "color6": "#D5E3C7",
+        "color7": "#f4f1df",
+        "color8": "#aaa89c",
+        "color9": "#DFAB62",
+        "color10": "#F9DA66",
+        "color11": "#6EA687",
+        "color12": "#ACBC97",
+        "color13": "#F8E49F",
+        "color14": "#D5E3C7",
+        "color15": "#f4f1df"
+    }
+}

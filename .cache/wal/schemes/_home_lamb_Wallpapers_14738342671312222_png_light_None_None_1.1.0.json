@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/14738342671312222.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fcf9f9",
+        "foreground": "#1C1320",
+        "cursor": "#1C1320"
+    },
+    "colors": {
+        "color0": "#fcf9f9",
+        "color1": "#E92839",
+        "color2": "#D91143",
+        "color3": "#E41B43",
+        "color4": "#EB2943",
+        "color5": "#B34455",
+        "color6": "#CE9D55",
+        "color7": "#1C1320",
+        "color8": "#8d8382",
+        "color9": "#E92839",
+        "color10": "#D91143",
+        "color11": "#E41B43",
+        "color12": "#EB2943",
+        "color13": "#B34455",
+        "color14": "#CE9D55",
+        "color15": "#1C1320"
+    }
+}

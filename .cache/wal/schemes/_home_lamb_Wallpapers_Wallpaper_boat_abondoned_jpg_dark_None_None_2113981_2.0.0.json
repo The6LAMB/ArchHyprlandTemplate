@@ -1,0 +1,28 @@
+{
+    "checksum": "4e7384704d690f76a3b648d10d984b52",
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/boat_abondoned.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#100f23",
+        "foreground": "#c3c3c8",
+        "cursor": "#c3c3c8"
+    },
+    "colors": {
+        "color0": "#100f23",
+        "color1": "#564B62",
+        "color2": "#C53547",
+        "color3": "#F65763",
+        "color4": "#34539B",
+        "color5": "#E97985",
+        "color6": "#5E97CB",
+        "color7": "#c3c3c8",
+        "color8": "#5e5e74",
+        "color9": "#564B62",
+        "color10": "#C53547",
+        "color11": "#F65763",
+        "color12": "#34539B",
+        "color13": "#E97985",
+        "color14": "#5E97CB",
+        "color15": "#c3c3c8"
+    }
+}

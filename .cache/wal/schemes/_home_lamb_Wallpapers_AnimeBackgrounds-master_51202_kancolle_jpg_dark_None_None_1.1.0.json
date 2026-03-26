@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/51202_kancolle.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#160f13",
+        "foreground": "#eae3e3",
+        "cursor": "#eae3e3"
+    },
+    "colors": {
+        "color0": "#160f13",
+        "color1": "#718CAD",
+        "color2": "#6297EC",
+        "color3": "#A99C9C",
+        "color4": "#D8ACA1",
+        "color5": "#F5D8B1",
+        "color6": "#B1BDE5",
+        "color7": "#eae3e3",
+        "color8": "#a39e9e",
+        "color9": "#718CAD",
+        "color10": "#6297EC",
+        "color11": "#A99C9C",
+        "color12": "#D8ACA1",
+        "color13": "#F5D8B1",
+        "color14": "#B1BDE5",
+        "color15": "#eae3e3"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/waves.png",
+    "alpha": "100",
+    "special": {
+        "background": "#07172F",
+        "foreground": "#dac6ca",
+        "cursor": "#dac6ca"
+    },
+    "colors": {
+        "color0": "#07172F",
+        "color1": "#CA728B",
+        "color2": "#0F859C",
+        "color3": "#1388A6",
+        "color4": "#678EAB",
+        "color5": "#9B96AB",
+        "color6": "#B3ADB5",
+        "color7": "#dac6ca",
+        "color8": "#988a8d",
+        "color9": "#CA728B",
+        "color10": "#0F859C",
+        "color11": "#1388A6",
+        "color12": "#678EAB",
+        "color13": "#9B96AB",
+        "color14": "#B3ADB5",
+        "color15": "#dac6ca"
+    }
+}

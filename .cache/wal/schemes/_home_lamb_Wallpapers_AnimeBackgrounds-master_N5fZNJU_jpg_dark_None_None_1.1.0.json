@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/N5fZNJU.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1c1b19",
+        "foreground": "#f1eae2",
+        "cursor": "#f1eae2"
+    },
+    "colors": {
+        "color0": "#1c1b19",
+        "color1": "#CFB3A4",
+        "color2": "#DDCCB6",
+        "color3": "#EBD2B5",
+        "color4": "#D5BFC0",
+        "color5": "#DBD0C7",
+        "color6": "#E9D9CC",
+        "color7": "#f1eae2",
+        "color8": "#a8a39e",
+        "color9": "#CFB3A4",
+        "color10": "#DDCCB6",
+        "color11": "#EBD2B5",
+        "color12": "#D5BFC0",
+        "color13": "#DBD0C7",
+        "color14": "#E9D9CC",
+        "color15": "#f1eae2"
+    }
+}

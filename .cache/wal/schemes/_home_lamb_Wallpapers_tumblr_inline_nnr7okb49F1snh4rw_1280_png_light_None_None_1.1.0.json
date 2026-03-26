@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/tumblr_inline_nnr7okb49F1snh4rw_1280.png",
+    "alpha": "100",
+    "special": {
+        "background": "#f7f8f9",
+        "foreground": "#0D1017",
+        "cursor": "#0D1017"
+    },
+    "colors": {
+        "color0": "#f7f8f9",
+        "color1": "#8A7886",
+        "color2": "#7A85A4",
+        "color3": "#8C94AD",
+        "color4": "#9FA3B2",
+        "color5": "#96A3C3",
+        "color6": "#B2B8C5",
+        "color7": "#0D1017",
+        "color8": "#7b7d81",
+        "color9": "#8A7886",
+        "color10": "#7A85A4",
+        "color11": "#8C94AD",
+        "color12": "#9FA3B2",
+        "color13": "#96A3C3",
+        "color14": "#B2B8C5",
+        "color15": "#0D1017"
+    }
+}

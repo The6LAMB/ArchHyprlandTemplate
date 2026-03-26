@@ -1,0 +1,28 @@
+{
+    "checksum": "2dd446f2ae60bc2e70eeb7b0d890fe6c",
+    "wallpaper": "/home/lamb/Wallpapers/night_city.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f1924",
+        "foreground": "#c3c5c8",
+        "cursor": "#c3c5c8"
+    },
+    "colors": {
+        "color0": "#0f1924",
+        "color1": "#363e4b",
+        "color2": "#612e33",
+        "color3": "#763f45",
+        "color4": "#a8474b",
+        "color5": "#a2484c",
+        "color6": "#7b5d6f",
+        "color7": "#92969c",
+        "color8": "#5e6874",
+        "color9": "#495364",
+        "color10": "#823E45",
+        "color11": "#9E555D",
+        "color12": "#E15F65",
+        "color13": "#D86166",
+        "color14": "#A47D94",
+        "color15": "#c3c5c8"
+    }
+}

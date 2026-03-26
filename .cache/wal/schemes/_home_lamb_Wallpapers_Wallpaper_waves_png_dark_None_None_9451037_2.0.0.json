@@ -1,0 +1,28 @@
+{
+    "checksum": "a93e7a632a1a2ea399a620de0d96620d",
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/waves.png",
+    "alpha": "100",
+    "special": {
+        "background": "#141e2e",
+        "foreground": "#c4c6ca",
+        "cursor": "#c4c6ca"
+    },
+    "colors": {
+        "color0": "#141e2e",
+        "color1": "#CA728B",
+        "color2": "#0F859C",
+        "color3": "#1388A6",
+        "color4": "#678EAB",
+        "color5": "#9B96AB",
+        "color6": "#B3ADB5",
+        "color7": "#c4c6ca",
+        "color8": "#636b79",
+        "color9": "#CA728B",
+        "color10": "#0F859C",
+        "color11": "#1388A6",
+        "color12": "#678EAB",
+        "color13": "#9B96AB",
+        "color14": "#B3ADB5",
+        "color15": "#c4c6ca"
+    }
+}

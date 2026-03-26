@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/12ro2yt.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#191334",
+        "foreground": "#e6e4ed",
+        "cursor": "#e6e4ed"
+    },
+    "colors": {
+        "color0": "#191334",
+        "color1": "#4195DD",
+        "color2": "#639BE4",
+        "color3": "#66D9FA",
+        "color4": "#9BA3E2",
+        "color5": "#C99CCF",
+        "color6": "#A0E2F7",
+        "color7": "#e6e4ed",
+        "color8": "#a19fa5",
+        "color9": "#4195DD",
+        "color10": "#639BE4",
+        "color11": "#66D9FA",
+        "color12": "#9BA3E2",
+        "color13": "#C99CCF",
+        "color14": "#A0E2F7",
+        "color15": "#e6e4ed"
+    }
+}

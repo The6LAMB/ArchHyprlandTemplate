@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/rP8Ps42.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fffefc",
+        "foreground": "#4C3031",
+        "cursor": "#4C3031"
+    },
+    "colors": {
+        "color0": "#fffefc",
+        "color1": "#DEA06D",
+        "color2": "#5676AE",
+        "color3": "#B9A9A8",
+        "color4": "#E6B58D",
+        "color5": "#F4D0A8",
+        "color6": "#E3D9C7",
+        "color7": "#4C3031",
+        "color8": "#99968d",
+        "color9": "#DEA06D",
+        "color10": "#5676AE",
+        "color11": "#B9A9A8",
+        "color12": "#E6B58D",
+        "color13": "#F4D0A8",
+        "color14": "#E3D9C7",
+        "color15": "#4C3031"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/__holo_and_myuri_shinsetsu_spice_and_wolf_and_etc_drawn_by_youzi_small_shabao__645333344f64beb5a649b0d04bcb15c7.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fcf8f0",
+        "foreground": "#311A11",
+        "cursor": "#311A11"
+    },
+    "colors": {
+        "color0": "#fcf8f0",
+        "color1": "#704A2F",
+        "color2": "#775647",
+        "color3": "#9F4A2C",
+        "color4": "#8B5D35",
+        "color5": "#926F55",
+        "color6": "#976E54",
+        "color7": "#311A11",
+        "color8": "#8e805e",
+        "color9": "#704A2F",
+        "color10": "#775647",
+        "color11": "#9F4A2C",
+        "color12": "#8B5D35",
+        "color13": "#926F55",
+        "color14": "#976E54",
+        "color15": "#311A11"
+    }
+}

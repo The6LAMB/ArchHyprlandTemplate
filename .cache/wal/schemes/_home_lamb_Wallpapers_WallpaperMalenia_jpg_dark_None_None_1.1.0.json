@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/WallpaperMalenia.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0C17",
+        "foreground": "#d2c9d9",
+        "cursor": "#d2c9d9"
+    },
+    "colors": {
+        "color0": "#0D0C17",
+        "color1": "#584C63",
+        "color2": "#A0555C",
+        "color3": "#CE887C",
+        "color4": "#6F6A8B",
+        "color5": "#8A799B",
+        "color6": "#A392B2",
+        "color7": "#d2c9d9",
+        "color8": "#938c97",
+        "color9": "#584C63",
+        "color10": "#A0555C",
+        "color11": "#CE887C",
+        "color12": "#6F6A8B",
+        "color13": "#8A799B",
+        "color14": "#A392B2",
+        "color15": "#d2c9d9"
+    }
+}

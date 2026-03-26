@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/anime-spice-and-wolf_00180735.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fdfbf7",
+        "foreground": "#6C5C3F",
+        "cursor": "#6C5C3F"
+    },
+    "colors": {
+        "color0": "#fdfbf7",
+        "color1": "#C5B36E",
+        "color2": "#CEC37A",
+        "color3": "#C1BA86",
+        "color4": "#CBC892",
+        "color5": "#D7D4AA",
+        "color6": "#E6DBB9",
+        "color7": "#6C5C3F",
+        "color8": "#918a7c",
+        "color9": "#C5B36E",
+        "color10": "#CEC37A",
+        "color11": "#C1BA86",
+        "color12": "#CBC892",
+        "color13": "#D7D4AA",
+        "color14": "#E6DBB9",
+        "color15": "#6C5C3F"
+    }
+}

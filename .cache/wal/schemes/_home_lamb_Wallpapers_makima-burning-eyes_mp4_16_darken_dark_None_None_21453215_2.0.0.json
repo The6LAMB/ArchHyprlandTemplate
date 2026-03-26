@@ -1,0 +1,28 @@
+{
+    "checksum": "cbd8a08784cbcb1323221e9813739f01",
+    "wallpaper": "/home/lamb/Wallpapers/makima-burning-eyes.mp4",
+    "alpha": "100",
+    "special": {
+        "background": "#190b0e",
+        "foreground": "#c5c2c2",
+        "cursor": "#c5c2c2"
+    },
+    "colors": {
+        "color0": "#190b0e",
+        "color1": "#af2135",
+        "color2": "#793f3f",
+        "color3": "#ae4443",
+        "color4": "#b78f4a",
+        "color5": "#ab5b66",
+        "color6": "#b58d78",
+        "color7": "#998e90",
+        "color8": "#6e5a5e",
+        "color9": "#EA2C47",
+        "color10": "#A25554",
+        "color11": "#E95B5A",
+        "color12": "#F5BF63",
+        "color13": "#E57A88",
+        "color14": "#F2BDA0",
+        "color15": "#c5c2c2"
+    }
+}

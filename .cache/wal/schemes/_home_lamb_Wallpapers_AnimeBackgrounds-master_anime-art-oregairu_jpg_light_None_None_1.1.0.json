@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/anime-art-oregairu.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fefefe",
+        "foreground": "#1F1223",
+        "cursor": "#1F1223"
+    },
+    "colors": {
+        "color0": "#fefefe",
+        "color1": "#1EC5C5",
+        "color2": "#23C5C6",
+        "color3": "#ED989B",
+        "color4": "#B7A3C6",
+        "color5": "#F7D0D4",
+        "color6": "#F8E8D4",
+        "color7": "#1F1223",
+        "color8": "#969596",
+        "color9": "#1EC5C5",
+        "color10": "#23C5C6",
+        "color11": "#ED989B",
+        "color12": "#B7A3C6",
+        "color13": "#F7D0D4",
+        "color14": "#F8E8D4",
+        "color15": "#1F1223"
+    }
+}

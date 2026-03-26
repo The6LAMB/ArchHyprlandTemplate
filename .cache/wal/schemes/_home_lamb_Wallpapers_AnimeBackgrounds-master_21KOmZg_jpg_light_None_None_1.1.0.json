@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/21KOmZg.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#faf6f2",
+        "foreground": "#020818",
+        "cursor": "#020818"
+    },
+    "colors": {
+        "color0": "#faf6f2",
+        "color1": "#51506F",
+        "color2": "#9C3D42",
+        "color3": "#C49076",
+        "color4": "#706E8D",
+        "color5": "#7E8296",
+        "color6": "#BDB1BA",
+        "color7": "#020818",
+        "color8": "#887867",
+        "color9": "#51506F",
+        "color10": "#9C3D42",
+        "color11": "#C49076",
+        "color12": "#706E8D",
+        "color13": "#7E8296",
+        "color14": "#BDB1BA",
+        "color15": "#020818"
+    }
+}

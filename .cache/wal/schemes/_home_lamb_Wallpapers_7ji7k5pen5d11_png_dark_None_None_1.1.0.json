@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/7ji7k5pen5d11.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0a0a",
+        "foreground": "#f3dfe0",
+        "cursor": "#f3dfe0"
+    },
+    "colors": {
+        "color0": "#0a0a0a",
+        "color1": "#8F8F8F",
+        "color2": "#A5999A",
+        "color3": "#B0B0B0",
+        "color4": "#D18083",
+        "color5": "#F2A0A3",
+        "color6": "#CFCFCF",
+        "color7": "#f3dfe0",
+        "color8": "#aa9c9c",
+        "color9": "#8F8F8F",
+        "color10": "#A5999A",
+        "color11": "#B0B0B0",
+        "color12": "#D18083",
+        "color13": "#F2A0A3",
+        "color14": "#CFCFCF",
+        "color15": "#f3dfe0"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/yukino_yukinoshita_wallpaper_hd_by_tahmidismyname-d8wzxut.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#04050D",
+        "foreground": "#c3c2c9",
+        "cursor": "#c3c2c9"
+    },
+    "colors": {
+        "color0": "#04050D",
+        "color1": "#4E536A",
+        "color2": "#656574",
+        "color3": "#68708B",
+        "color4": "#3757C8",
+        "color5": "#8C728D",
+        "color6": "#6B95D3",
+        "color7": "#c3c2c9",
+        "color8": "#88878c",
+        "color9": "#4E536A",
+        "color10": "#656574",
+        "color11": "#68708B",
+        "color12": "#3757C8",
+        "color13": "#8C728D",
+        "color14": "#6B95D3",
+        "color15": "#c3c2c9"
+    }
+}

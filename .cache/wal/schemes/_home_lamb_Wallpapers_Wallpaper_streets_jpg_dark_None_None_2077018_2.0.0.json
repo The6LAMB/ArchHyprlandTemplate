@@ -1,0 +1,28 @@
+{
+    "checksum": "186f393393f03aa2d25c854ea63ae481",
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/streets.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d1c1f",
+        "foreground": "#c2c6c7",
+        "cursor": "#c2c6c7"
+    },
+    "colors": {
+        "color0": "#0d1c1f",
+        "color1": "#F9AE6B",
+        "color2": "#427C83",
+        "color3": "#649194",
+        "color4": "#96B0AB",
+        "color5": "#E9CB9C",
+        "color6": "#C9C2AB",
+        "color7": "#c2c6c7",
+        "color8": "#5c6d71",
+        "color9": "#F9AE6B",
+        "color10": "#427C83",
+        "color11": "#649194",
+        "color12": "#96B0AB",
+        "color13": "#E9CB9C",
+        "color14": "#C9C2AB",
+        "color15": "#c2c6c7"
+    }
+}

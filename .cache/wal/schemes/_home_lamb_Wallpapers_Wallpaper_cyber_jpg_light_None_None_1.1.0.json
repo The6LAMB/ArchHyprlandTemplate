@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/cyber.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#faf4fe",
+        "foreground": "#180C37",
+        "cursor": "#180C37"
+    },
+    "colors": {
+        "color0": "#faf4fe",
+        "color1": "#69329A",
+        "color2": "#5230A7",
+        "color3": "#503ABB",
+        "color4": "#6444B6",
+        "color5": "#6A5BDE",
+        "color6": "#9F47A6",
+        "color7": "#180C37",
+        "color8": "#856d97",
+        "color9": "#69329A",
+        "color10": "#5230A7",
+        "color11": "#503ABB",
+        "color12": "#6444B6",
+        "color13": "#6A5BDE",
+        "color14": "#9F47A6",
+        "color15": "#180C37"
+    }
+}

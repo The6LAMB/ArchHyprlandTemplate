@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/akino_sora_yuigahama_yui_yahari_ore_no_seishun_love_come_wa_machigatteiru_101398_1920x1080.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fcfcfc",
+        "foreground": "#160C17",
+        "cursor": "#160C17"
+    },
+    "colors": {
+        "color0": "#fcfcfc",
+        "color1": "#979396",
+        "color2": "#B2B1B2",
+        "color3": "#E79F93",
+        "color4": "#EDC8B5",
+        "color5": "#C2B7C6",
+        "color6": "#D1D1D1",
+        "color7": "#160C17",
+        "color8": "#8d8d8d",
+        "color9": "#979396",
+        "color10": "#B2B1B2",
+        "color11": "#E79F93",
+        "color12": "#EDC8B5",
+        "color13": "#C2B7C6",
+        "color14": "#D1D1D1",
+        "color15": "#160C17"
+    }
+}

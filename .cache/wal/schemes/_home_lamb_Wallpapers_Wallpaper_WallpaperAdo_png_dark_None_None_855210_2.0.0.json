@@ -1,0 +1,28 @@
+{
+    "checksum": "ca28121a6159cb6b24833b46c35d19e7",
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/WallpaperAdo.png",
+    "alpha": "100",
+    "special": {
+        "background": "#05050c",
+        "foreground": "#c0c0c2",
+        "cursor": "#c0c0c2"
+    },
+    "colors": {
+        "color0": "#05050c",
+        "color1": "#0000C9",
+        "color2": "#0135C6",
+        "color3": "#8870CB",
+        "color4": "#3882AB",
+        "color5": "#6484BB",
+        "color6": "#6E8FCA",
+        "color7": "#c0c0c2",
+        "color8": "#555567",
+        "color9": "#0000C9",
+        "color10": "#0135C6",
+        "color11": "#8870CB",
+        "color12": "#3882AB",
+        "color13": "#6484BB",
+        "color14": "#6E8FCA",
+        "color15": "#c0c0c2"
+    }
+}

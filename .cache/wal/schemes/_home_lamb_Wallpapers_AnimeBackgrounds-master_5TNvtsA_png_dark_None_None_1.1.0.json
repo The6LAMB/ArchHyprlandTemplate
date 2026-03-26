@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/5TNvtsA.png",
+    "alpha": "100",
+    "special": {
+        "background": "#04050B",
+        "foreground": "#e3cedc",
+        "cursor": "#e3cedc"
+    },
+    "colors": {
+        "color0": "#04050B",
+        "color1": "#223A85",
+        "color2": "#374C89",
+        "color3": "#5C6398",
+        "color4": "#897AA6",
+        "color5": "#A494AB",
+        "color6": "#CFB4AF",
+        "color7": "#e3cedc",
+        "color8": "#9e909a",
+        "color9": "#223A85",
+        "color10": "#374C89",
+        "color11": "#5C6398",
+        "color12": "#897AA6",
+        "color13": "#A494AB",
+        "color14": "#CFB4AF",
+        "color15": "#e3cedc"
+    }
+}

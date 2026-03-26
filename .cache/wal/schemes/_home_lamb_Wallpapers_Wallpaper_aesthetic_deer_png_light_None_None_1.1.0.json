@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/aesthetic_deer.png",
+    "alpha": "100",
+    "special": {
+        "background": "#ece7ed",
+        "foreground": "#111527",
+        "cursor": "#111527"
+    },
+    "colors": {
+        "color0": "#ece7ed",
+        "color1": "#2B4562",
+        "color2": "#6A4571",
+        "color3": "#933A51",
+        "color4": "#AF3956",
+        "color5": "#D93A62",
+        "color6": "#834678",
+        "color7": "#111527",
+        "color8": "#4e3954",
+        "color9": "#2B4562",
+        "color10": "#6A4571",
+        "color11": "#933A51",
+        "color12": "#AF3956",
+        "color13": "#D93A62",
+        "color14": "#834678",
+        "color15": "#111527"
+    }
+}

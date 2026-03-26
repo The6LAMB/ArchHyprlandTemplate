@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/AyRjLew.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fdfdfa",
+        "foreground": "#0E0C0E",
+        "cursor": "#0E0C0E"
+    },
+    "colors": {
+        "color0": "#fdfdfa",
+        "color1": "#D6051D",
+        "color2": "#FA0016",
+        "color3": "#D70922",
+        "color4": "#BB9566",
+        "color5": "#788487",
+        "color6": "#ACB5B5",
+        "color7": "#0E0C0E",
+        "color8": "#949287",
+        "color9": "#D6051D",
+        "color10": "#FA0016",
+        "color11": "#D70922",
+        "color12": "#BB9566",
+        "color13": "#788487",
+        "color14": "#ACB5B5",
+        "color15": "#0E0C0E"
+    }
+}

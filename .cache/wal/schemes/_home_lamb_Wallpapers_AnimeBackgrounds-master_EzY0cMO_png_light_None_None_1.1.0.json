@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/EzY0cMO.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fcfcfc",
+        "foreground": "#0F0F0F",
+        "cursor": "#0F0F0F"
+    },
+    "colors": {
+        "color0": "#fcfcfc",
+        "color1": "#D90C13",
+        "color2": "#E20E17",
+        "color3": "#7E8081",
+        "color4": "#A1A0A1",
+        "color5": "#C1BDBE",
+        "color6": "#D0D0D1",
+        "color7": "#0F0F0F",
+        "color8": "#909090",
+        "color9": "#D90C13",
+        "color10": "#E20E17",
+        "color11": "#7E8081",
+        "color12": "#A1A0A1",
+        "color13": "#C1BDBE",
+        "color14": "#D0D0D1",
+        "color15": "#0F0F0F"
+    }
+}

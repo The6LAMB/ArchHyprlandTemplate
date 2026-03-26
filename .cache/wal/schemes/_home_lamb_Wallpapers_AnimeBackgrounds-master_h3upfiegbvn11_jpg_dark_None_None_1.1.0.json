@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/h3upfiegbvn11.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101517",
+        "foreground": "#ccd0df",
+        "cursor": "#ccd0df"
+    },
+    "colors": {
+        "color0": "#101517",
+        "color1": "#959670",
+        "color2": "#3D4F83",
+        "color3": "#636A8B",
+        "color4": "#7987A1",
+        "color5": "#9699A8",
+        "color6": "#CBC2B7",
+        "color7": "#ccd0df",
+        "color8": "#8e919c",
+        "color9": "#959670",
+        "color10": "#3D4F83",
+        "color11": "#636A8B",
+        "color12": "#7987A1",
+        "color13": "#9699A8",
+        "color14": "#CBC2B7",
+        "color15": "#ccd0df"
+    }
+}

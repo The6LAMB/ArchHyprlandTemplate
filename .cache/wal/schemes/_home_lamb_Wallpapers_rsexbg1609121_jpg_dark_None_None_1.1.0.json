@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/rsexbg1609121.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0707",
+        "foreground": "#f3e4c8",
+        "cursor": "#f3e4c8"
+    },
+    "colors": {
+        "color0": "#0A0707",
+        "color1": "#BC5D34",
+        "color2": "#9C6255",
+        "color3": "#E79E4D",
+        "color4": "#EF9763",
+        "color5": "#6A7594",
+        "color6": "#DCAC91",
+        "color7": "#f3e4c8",
+        "color8": "#aa9f8c",
+        "color9": "#BC5D34",
+        "color10": "#9C6255",
+        "color11": "#E79E4D",
+        "color12": "#EF9763",
+        "color13": "#6A7594",
+        "color14": "#DCAC91",
+        "color15": "#f3e4c8"
+    }
+}

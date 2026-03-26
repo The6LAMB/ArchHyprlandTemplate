@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/k8moXOY.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1d1c23",
+        "foreground": "#efe1df",
+        "cursor": "#efe1df"
+    },
+    "colors": {
+        "color0": "#1d1c23",
+        "color1": "#748BB1",
+        "color2": "#7F96C0",
+        "color3": "#A29BAA",
+        "color4": "#DBA4A7",
+        "color5": "#D3BCC4",
+        "color6": "#DFD5D6",
+        "color7": "#efe1df",
+        "color8": "#a79d9c",
+        "color9": "#748BB1",
+        "color10": "#7F96C0",
+        "color11": "#A29BAA",
+        "color12": "#DBA4A7",
+        "color13": "#D3BCC4",
+        "color14": "#DFD5D6",
+        "color15": "#efe1df"
+    }
+}

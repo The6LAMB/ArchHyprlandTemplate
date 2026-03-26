@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/6lmtzl50csm11.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#010101",
+        "foreground": "#e0e0e0",
+        "cursor": "#e0e0e0"
+    },
+    "colors": {
+        "color0": "#010101",
+        "color1": "#D85812",
+        "color2": "#FAB003",
+        "color3": "#95A15D",
+        "color4": "#29B7A2",
+        "color5": "#99958D",
+        "color6": "#BEBFBB",
+        "color7": "#e0e0e0",
+        "color8": "#9c9c9c",
+        "color9": "#D85812",
+        "color10": "#FAB003",
+        "color11": "#95A15D",
+        "color12": "#29B7A2",
+        "color13": "#99958D",
+        "color14": "#BEBFBB",
+        "color15": "#e0e0e0"
+    }
+}

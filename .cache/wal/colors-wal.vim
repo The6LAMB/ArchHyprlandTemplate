@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/lamb/Wallpapers/915988.png"
+let background = "#301a28"
+let foreground = "#f5edde"
+let cursor     = "#f5edde"
+
+" Colors
+let color0  = "#301a28"
+let color1  = "#9E738D"
+let color2  = "#AE979E"
+let color3  = "#DBB299"
+let color4  = "#FBCF8F"
+let color5  = "#F6DBB3"
+let color6  = "#D2B5C5"
+let color7  = "#f5edde"
+let color8  = "#aba59b"
+let color9  = "#9E738D"
+let color10 = "#AE979E"
+let color11 = "#DBB299"
+let color12 = "#FBCF8F"
+let color13 = "#F6DBB3"
+let color14 = "#D2B5C5"
+let color15 = "#f5edde"

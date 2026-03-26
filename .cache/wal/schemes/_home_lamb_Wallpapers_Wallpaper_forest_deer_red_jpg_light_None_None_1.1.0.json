@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/forest_deer_red.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fdeee4",
+        "foreground": "#1E1930",
+        "cursor": "#1E1930"
+    },
+    "colors": {
+        "color0": "#fdeee4",
+        "color1": "#3B4270",
+        "color2": "#50476F",
+        "color3": "#6F4C6A",
+        "color4": "#B05442",
+        "color5": "#A15863",
+        "color6": "#DA6D4C",
+        "color7": "#1E1930",
+        "color8": "#91562f",
+        "color9": "#3B4270",
+        "color10": "#50476F",
+        "color11": "#6F4C6A",
+        "color12": "#B05442",
+        "color13": "#A15863",
+        "color14": "#DA6D4C",
+        "color15": "#1E1930"
+    }
+}

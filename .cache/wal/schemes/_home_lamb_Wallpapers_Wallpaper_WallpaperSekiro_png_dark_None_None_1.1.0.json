@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/WallpaperSekiro.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0e0f12",
+        "foreground": "#eccac4",
+        "cursor": "#eccac4"
+    },
+    "colors": {
+        "color0": "#0e0f12",
+        "color1": "#6A5657",
+        "color2": "#716266",
+        "color3": "#8E6F6E",
+        "color4": "#9F7875",
+        "color5": "#A8827E",
+        "color6": "#AF8A88",
+        "color7": "#eccac4",
+        "color8": "#a58d89",
+        "color9": "#6A5657",
+        "color10": "#716266",
+        "color11": "#8E6F6E",
+        "color12": "#9F7875",
+        "color13": "#A8827E",
+        "color14": "#AF8A88",
+        "color15": "#eccac4"
+    }
+}

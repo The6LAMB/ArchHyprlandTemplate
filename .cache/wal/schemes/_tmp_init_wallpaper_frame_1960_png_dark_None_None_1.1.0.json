@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/tmp/init_wallpaper_frame_1960.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0809",
+        "foreground": "#f3e9de",
+        "cursor": "#f3e9de"
+    },
+    "colors": {
+        "color0": "#0D0809",
+        "color1": "#F53A43",
+        "color2": "#B9564A",
+        "color3": "#F15B51",
+        "color4": "#F5B65F",
+        "color5": "#DB7D82",
+        "color6": "#F2BB9E",
+        "color7": "#f3e9de",
+        "color8": "#aaa39b",
+        "color9": "#F53A43",
+        "color10": "#B9564A",
+        "color11": "#F15B51",
+        "color12": "#F5B65F",
+        "color13": "#DB7D82",
+        "color14": "#F2BB9E",
+        "color15": "#f3e9de"
+    }
+}

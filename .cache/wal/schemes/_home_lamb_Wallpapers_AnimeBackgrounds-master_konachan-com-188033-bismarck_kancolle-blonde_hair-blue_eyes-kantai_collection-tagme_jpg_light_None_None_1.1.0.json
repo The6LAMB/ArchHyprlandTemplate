@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/konachan-com-188033-bismarck_kancolle-blonde_hair-blue_eyes-kantai_collection-tagme.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fbfaf9",
+        "foreground": "#0C0D0D",
+        "cursor": "#0C0D0D"
+    },
+    "colors": {
+        "color0": "#fbfaf9",
+        "color1": "#942932",
+        "color2": "#9E6252",
+        "color3": "#C2946E",
+        "color4": "#738390",
+        "color5": "#9A9A9A",
+        "color6": "#DBB299",
+        "color7": "#0C0D0D",
+        "color8": "#8c8782",
+        "color9": "#942932",
+        "color10": "#9E6252",
+        "color11": "#C2946E",
+        "color12": "#738390",
+        "color13": "#9A9A9A",
+        "color14": "#DBB299",
+        "color15": "#0C0D0D"
+    }
+}

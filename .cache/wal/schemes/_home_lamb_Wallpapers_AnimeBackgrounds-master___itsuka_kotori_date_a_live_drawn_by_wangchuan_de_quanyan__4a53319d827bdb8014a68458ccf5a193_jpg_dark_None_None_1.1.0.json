@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/__itsuka_kotori_date_a_live_drawn_by_wangchuan_de_quanyan__4a53319d827bdb8014a68458ccf5a193.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#160c10",
+        "foreground": "#aebad0",
+        "cursor": "#aebad0"
+    },
+    "colors": {
+        "color0": "#160c10",
+        "color1": "#976768",
+        "color2": "#CD6D59",
+        "color3": "#E19C67",
+        "color4": "#394D96",
+        "color5": "#5A679D",
+        "color6": "#92768B",
+        "color7": "#aebad0",
+        "color8": "#798291",
+        "color9": "#976768",
+        "color10": "#CD6D59",
+        "color11": "#E19C67",
+        "color12": "#394D96",
+        "color13": "#5A679D",
+        "color14": "#92768B",
+        "color15": "#aebad0"
+    }
+}

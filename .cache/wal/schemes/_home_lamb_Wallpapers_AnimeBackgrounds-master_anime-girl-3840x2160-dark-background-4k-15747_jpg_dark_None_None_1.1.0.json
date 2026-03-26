@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/anime-girl-3840x2160-dark-background-4k-15747.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#ecdcd1",
+        "cursor": "#ecdcd1"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#B08875",
+        "color2": "#D5926F",
+        "color3": "#656597",
+        "color4": "#C26491",
+        "color5": "#C39A9B",
+        "color6": "#D9A49C",
+        "color7": "#ecdcd1",
+        "color8": "#a59a92",
+        "color9": "#B08875",
+        "color10": "#D5926F",
+        "color11": "#656597",
+        "color12": "#C26491",
+        "color13": "#C39A9B",
+        "color14": "#D9A49C",
+        "color15": "#ecdcd1"
+    }
+}

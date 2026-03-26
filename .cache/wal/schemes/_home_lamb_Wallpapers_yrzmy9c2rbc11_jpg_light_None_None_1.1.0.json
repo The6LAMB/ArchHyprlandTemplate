@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/yrzmy9c2rbc11.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f6f2f2",
+        "foreground": "#080A0E",
+        "cursor": "#080A0E"
+    },
+    "colors": {
+        "color0": "#f6f2f2",
+        "color1": "#56474C",
+        "color2": "#674F5F",
+        "color3": "#93416D",
+        "color4": "#61418F",
+        "color5": "#B95899",
+        "color6": "#AB609A",
+        "color7": "#080A0E",
+        "color8": "#786666",
+        "color9": "#56474C",
+        "color10": "#674F5F",
+        "color11": "#93416D",
+        "color12": "#61418F",
+        "color13": "#B95899",
+        "color14": "#AB609A",
+        "color15": "#080A0E"
+    }
+}

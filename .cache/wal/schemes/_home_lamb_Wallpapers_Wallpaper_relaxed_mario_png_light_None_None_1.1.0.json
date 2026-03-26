@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/relaxed_mario.png",
+    "alpha": "100",
+    "special": {
+        "background": "#f6edfc",
+        "foreground": "#0F1318",
+        "cursor": "#0F1318"
+    },
+    "colors": {
+        "color0": "#f6edfc",
+        "color1": "#AC7DC8",
+        "color2": "#74ABAB",
+        "color3": "#71A5E7",
+        "color4": "#B9B6B0",
+        "color5": "#B685DD",
+        "color6": "#B5BECA",
+        "color7": "#0F1318",
+        "color8": "#76528e",
+        "color9": "#AC7DC8",
+        "color10": "#74ABAB",
+        "color11": "#71A5E7",
+        "color12": "#B9B6B0",
+        "color13": "#B685DD",
+        "color14": "#B5BECA",
+        "color15": "#0F1318"
+    }
+}

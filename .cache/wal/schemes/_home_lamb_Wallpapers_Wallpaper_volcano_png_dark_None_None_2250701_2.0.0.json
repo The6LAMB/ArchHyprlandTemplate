@@ -1,0 +1,28 @@
+{
+    "checksum": "f9c6a4eea668aa83b33df998bc3f82a7",
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/volcano.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0c19",
+        "foreground": "#c1c2c5",
+        "cursor": "#c1c2c5"
+    },
+    "colors": {
+        "color0": "#0a0c19",
+        "color1": "#1B9AAD",
+        "color2": "#699EA1",
+        "color3": "#7695B6",
+        "color4": "#8C9AB4",
+        "color5": "#A6A1B2",
+        "color6": "#DFB1B5",
+        "color7": "#c1c2c5",
+        "color8": "#595d6e",
+        "color9": "#1B9AAD",
+        "color10": "#699EA1",
+        "color11": "#7695B6",
+        "color12": "#8C9AB4",
+        "color13": "#A6A1B2",
+        "color14": "#DFB1B5",
+        "color15": "#c1c2c5"
+    }
+}

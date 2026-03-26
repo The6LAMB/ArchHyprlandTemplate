@@ -1,0 +1,21 @@
+set $wallpaper /home/lamb/Wallpapers/915988.png
+
+set $background #301a28
+set $foreground #f5edde
+
+set $color0 #301a28
+set $color1 #9E738D
+set $color2 #AE979E
+set $color3 #DBB299
+set $color4 #FBCF8F
+set $color5 #F6DBB3
+set $color6 #D2B5C5
+set $color7 #f5edde
+set $color8 #aba59b
+set $color9 #9E738D
+set $color10 #AE979E
+set $color11 #DBB299
+set $color12 #FBCF8F
+set $color13 #F6DBB3
+set $color14 #D2B5C5
+set $color15 #f5edde

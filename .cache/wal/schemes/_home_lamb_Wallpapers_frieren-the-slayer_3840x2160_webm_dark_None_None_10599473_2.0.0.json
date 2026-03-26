@@ -1,0 +1,28 @@
+{
+    "checksum": "a1f410fecc1ba8ac03b620301d93c20e",
+    "wallpaper": "/home/lamb/Wallpapers/frieren-the-slayer.3840x2160.webm",
+    "alpha": "100",
+    "special": {
+        "background": "#0e1320",
+        "foreground": "#c2c4c7",
+        "cursor": "#c2c4c7"
+    },
+    "colors": {
+        "color0": "#0e1320",
+        "color1": "#3B4451",
+        "color2": "#3C585F",
+        "color3": "#434C58",
+        "color4": "#515E6C",
+        "color5": "#519D66",
+        "color6": "#677786",
+        "color7": "#c2c4c7",
+        "color8": "#5d6272",
+        "color9": "#3B4451",
+        "color10": "#3C585F",
+        "color11": "#434C58",
+        "color12": "#515E6C",
+        "color13": "#519D66",
+        "color14": "#677786",
+        "color15": "#c2c4c7"
+    }
+}

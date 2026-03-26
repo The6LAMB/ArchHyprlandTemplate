@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/aglotND.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#17170e",
+        "foreground": "#f2ecde",
+        "cursor": "#f2ecde"
+    },
+    "colors": {
+        "color0": "#17170e",
+        "color1": "#D5976D",
+        "color2": "#58AC98",
+        "color3": "#ACA897",
+        "color4": "#E0B09E",
+        "color5": "#E4CEB1",
+        "color6": "#EFD7C5",
+        "color7": "#f2ecde",
+        "color8": "#a9a59b",
+        "color9": "#D5976D",
+        "color10": "#58AC98",
+        "color11": "#ACA897",
+        "color12": "#E0B09E",
+        "color13": "#E4CEB1",
+        "color14": "#EFD7C5",
+        "color15": "#f2ecde"
+    }
+}

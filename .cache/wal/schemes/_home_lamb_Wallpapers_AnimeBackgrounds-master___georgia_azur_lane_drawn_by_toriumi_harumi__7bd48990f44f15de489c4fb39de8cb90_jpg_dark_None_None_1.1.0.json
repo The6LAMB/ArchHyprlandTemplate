@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/__georgia_azur_lane_drawn_by_toriumi_harumi__7bd48990f44f15de489c4fb39de8cb90.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0a0b",
+        "foreground": "#dad7d2",
+        "cursor": "#dad7d2"
+    },
+    "colors": {
+        "color0": "#0c0a0b",
+        "color1": "#3B4557",
+        "color2": "#4C4B4F",
+        "color3": "#636267",
+        "color4": "#89756B",
+        "color5": "#7E7D80",
+        "color6": "#A9A39D",
+        "color7": "#dad7d2",
+        "color8": "#989693",
+        "color9": "#3B4557",
+        "color10": "#4C4B4F",
+        "color11": "#636267",
+        "color12": "#89756B",
+        "color13": "#7E7D80",
+        "color14": "#A9A39D",
+        "color15": "#dad7d2"
+    }
+}

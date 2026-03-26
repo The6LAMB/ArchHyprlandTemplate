@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/JjFntsK.png",
+    "alpha": "100",
+    "special": {
+        "background": "#040404",
+        "foreground": "#e8e5e2",
+        "cursor": "#e8e5e2"
+    },
+    "colors": {
+        "color0": "#040404",
+        "color1": "#CA0000",
+        "color2": "#EB2323",
+        "color3": "#947266",
+        "color4": "#9F887E",
+        "color5": "#ADA39C",
+        "color6": "#E4C2A8",
+        "color7": "#e8e5e2",
+        "color8": "#a2a09e",
+        "color9": "#CA0000",
+        "color10": "#EB2323",
+        "color11": "#947266",
+        "color12": "#9F887E",
+        "color13": "#ADA39C",
+        "color14": "#E4C2A8",
+        "color15": "#e8e5e2"
+    }
+}

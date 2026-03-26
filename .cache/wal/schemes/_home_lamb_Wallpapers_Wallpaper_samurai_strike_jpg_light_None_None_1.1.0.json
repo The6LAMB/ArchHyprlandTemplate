@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/samurai_strike.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f3f7f8",
+        "foreground": "#1A1D20",
+        "cursor": "#1A1D20"
+    },
+    "colors": {
+        "color0": "#f3f7f8",
+        "color1": "#376591",
+        "color2": "#4C7291",
+        "color3": "#55799B",
+        "color4": "#668DA5",
+        "color5": "#68B0D6",
+        "color6": "#94AAB6",
+        "color7": "#1A1D20",
+        "color8": "#6c797d",
+        "color9": "#376591",
+        "color10": "#4C7291",
+        "color11": "#55799B",
+        "color12": "#668DA5",
+        "color13": "#68B0D6",
+        "color14": "#94AAB6",
+        "color15": "#1A1D20"
+    }
+}

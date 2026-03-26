@@ -1,0 +1,28 @@
+{
+    "checksum": "b74571fc06bbff2a3a5fda9503c354fd",
+    "wallpaper": "/home/lamb/Wallpapers/rain_world1.png",
+    "alpha": "100",
+    "special": {
+        "background": "#120b1a",
+        "foreground": "#c3c2c5",
+        "cursor": "#c3c2c5"
+    },
+    "colors": {
+        "color0": "#120b1a",
+        "color1": "#1e2a33",
+        "color2": "#472436",
+        "color3": "#1e363f",
+        "color4": "#1c3f48",
+        "color5": "#4a3c4a",
+        "color6": "#74393d",
+        "color7": "#948e99",
+        "color8": "#625a6f",
+        "color9": "#283845",
+        "color10": "#5F3149",
+        "color11": "#284955",
+        "color12": "#265561",
+        "color13": "#635063",
+        "color14": "#9B4D52",
+        "color15": "#c3c2c5"
+    }
+}

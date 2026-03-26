@@ -1,0 +1,28 @@
+{
+    "checksum": "8539c5e5efc21ba5c7f7a43219dec262",
+    "wallpaper": "/home/lamb/Wallpapers/rocket_launch.png",
+    "alpha": "100",
+    "special": {
+        "background": "#272d43",
+        "foreground": "#c9cad0",
+        "cursor": "#c9cad0"
+    },
+    "colors": {
+        "color0": "#272d43",
+        "color1": "#746e86",
+        "color2": "#9c6e75",
+        "color3": "#727a9b",
+        "color4": "#81859f",
+        "color5": "#958a9d",
+        "color6": "#8591a6",
+        "color7": "#9ea1a8",
+        "color8": "#6e7487",
+        "color9": "#9B93B3",
+        "color10": "#D1939D",
+        "color11": "#99A3CF",
+        "color12": "#ADB2D5",
+        "color13": "#C7B9D2",
+        "color14": "#B2C2DE",
+        "color15": "#c9cad0"
+    }
+}

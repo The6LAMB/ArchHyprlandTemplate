@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/wyHb1t4.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f3f5f6",
+        "foreground": "#050609",
+        "cursor": "#050609"
+    },
+    "colors": {
+        "color0": "#f3f5f6",
+        "color1": "#934D50",
+        "color2": "#63768C",
+        "color3": "#748A9F",
+        "color4": "#5F9BC4",
+        "color5": "#8A99A9",
+        "color6": "#97A6B0",
+        "color7": "#050609",
+        "color8": "#6c7275",
+        "color9": "#934D50",
+        "color10": "#63768C",
+        "color11": "#748A9F",
+        "color12": "#5F9BC4",
+        "color13": "#8A99A9",
+        "color14": "#97A6B0",
+        "color15": "#050609"
+    }
+}

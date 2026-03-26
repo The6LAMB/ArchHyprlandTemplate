@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/45828_nisekoi_chitoge_kirisaki.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fefdfc",
+        "foreground": "#141514",
+        "cursor": "#141514"
+    },
+    "colors": {
+        "color0": "#fefdfc",
+        "color1": "#586F92",
+        "color2": "#6788AC",
+        "color3": "#BFB5B4",
+        "color4": "#F2D9A0",
+        "color5": "#FEF0AF",
+        "color6": "#F6D6D1",
+        "color7": "#141514",
+        "color8": "#97918d",
+        "color9": "#586F92",
+        "color10": "#6788AC",
+        "color11": "#BFB5B4",
+        "color12": "#F2D9A0",
+        "color13": "#FEF0AF",
+        "color14": "#F6D6D1",
+        "color15": "#141514"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/konachan-com-200826-boat-clouds-kantai_collection-magicians-sunset-water-yamato_kancolle.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#150c0f",
+        "foreground": "#f3e8c7",
+        "cursor": "#f3e8c7"
+    },
+    "colors": {
+        "color0": "#150c0f",
+        "color1": "#97635C",
+        "color2": "#C98C5C",
+        "color3": "#EB9B5D",
+        "color4": "#FCDF66",
+        "color5": "#9A768B",
+        "color6": "#CC9F9F",
+        "color7": "#f3e8c7",
+        "color8": "#aaa28b",
+        "color9": "#97635C",
+        "color10": "#C98C5C",
+        "color11": "#EB9B5D",
+        "color12": "#FCDF66",
+        "color13": "#9A768B",
+        "color14": "#CC9F9F",
+        "color15": "#f3e8c7"
+    }
+}

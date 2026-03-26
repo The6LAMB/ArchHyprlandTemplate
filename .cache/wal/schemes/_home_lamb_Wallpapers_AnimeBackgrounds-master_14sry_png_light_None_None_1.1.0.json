@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/14sry.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fdfafb",
+        "foreground": "#1D172D",
+        "cursor": "#1D172D"
+    },
+    "colors": {
+        "color0": "#fdfafb",
+        "color1": "#635C9A",
+        "color2": "#5940AA",
+        "color3": "#A469B1",
+        "color4": "#69A5C7",
+        "color5": "#A796A5",
+        "color6": "#DDA4A1",
+        "color7": "#1D172D",
+        "color8": "#91878a",
+        "color9": "#635C9A",
+        "color10": "#5940AA",
+        "color11": "#A469B1",
+        "color12": "#69A5C7",
+        "color13": "#A796A5",
+        "color14": "#DDA4A1",
+        "color15": "#1D172D"
+    }
+}

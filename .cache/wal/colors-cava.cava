@@ -1,0 +1,11 @@
+[color]
+
+; background = #0d0610
+; foreground = #c2c0c3
+
+gradient = 1
+gradient_count = 4
+gradient_color_1 = '#9A906D'
+gradient_color_2 = '#4D8699'
+gradient_color_3 = '#A8AB92'
+gradient_color_4 = '#B9C2A9'

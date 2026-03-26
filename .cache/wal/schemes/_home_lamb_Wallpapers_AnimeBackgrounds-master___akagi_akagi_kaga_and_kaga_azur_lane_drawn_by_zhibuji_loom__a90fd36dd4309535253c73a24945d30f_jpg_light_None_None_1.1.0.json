@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/__akagi_akagi_kaga_and_kaga_azur_lane_drawn_by_zhibuji_loom__a90fd36dd4309535253c73a24945d30f.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fefefe",
+        "foreground": "#210D2D",
+        "cursor": "#210D2D"
+    },
+    "colors": {
+        "color0": "#fefefe",
+        "color1": "#AF9665",
+        "color2": "#DE9E6D",
+        "color3": "#516098",
+        "color4": "#6990A6",
+        "color5": "#A69DAE",
+        "color6": "#CDB1B1",
+        "color7": "#210D2D",
+        "color8": "#989898",
+        "color9": "#AF9665",
+        "color10": "#DE9E6D",
+        "color11": "#516098",
+        "color12": "#6990A6",
+        "color13": "#A69DAE",
+        "color14": "#CDB1B1",
+        "color15": "#210D2D"
+    }
+}

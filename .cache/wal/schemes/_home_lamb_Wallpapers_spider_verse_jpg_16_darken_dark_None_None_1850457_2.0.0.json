@@ -1,0 +1,28 @@
+{
+    "checksum": "90d0d17ed4f493c5e9b9bfe7854f4bb2",
+    "wallpaper": "/home/lamb/Wallpapers/spider_verse.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#100915",
+        "foreground": "#c3c1c4",
+        "cursor": "#c3c1c4"
+    },
+    "colors": {
+        "color0": "#100915",
+        "color1": "#213f6d",
+        "color2": "#4c4c68",
+        "color3": "#837381",
+        "color4": "#9c8182",
+        "color5": "#ac877c",
+        "color6": "#bb9a83",
+        "color7": "#938d97",
+        "color8": "#63586c",
+        "color9": "#2D5592",
+        "color10": "#66668B",
+        "color11": "#AF9AAD",
+        "color12": "#D1ACAE",
+        "color13": "#E6B4A6",
+        "color14": "#FACEAF",
+        "color15": "#c3c1c4"
+    }
+}

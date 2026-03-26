@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/xboiyojde2w11.png",
+    "alpha": "100",
+    "special": {
+        "background": "#151011",
+        "foreground": "#ede2e4",
+        "cursor": "#ede2e4"
+    },
+    "colors": {
+        "color0": "#151011",
+        "color1": "#B48778",
+        "color2": "#D37888",
+        "color3": "#AB9FA1",
+        "color4": "#DF9FA6",
+        "color5": "#E6BBC2",
+        "color6": "#D0D1D1",
+        "color7": "#ede2e4",
+        "color8": "#a59e9f",
+        "color9": "#B48778",
+        "color10": "#D37888",
+        "color11": "#AB9FA1",
+        "color12": "#DF9FA6",
+        "color13": "#E6BBC2",
+        "color14": "#D0D1D1",
+        "color15": "#ede2e4"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/kimi-no-na-wa-taki-tachibana-mitsuha-miyamizu-bond-sky-clouds-anime-16192.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fefdfb",
+        "foreground": "#082463",
+        "cursor": "#082463"
+    },
+    "colors": {
+        "color0": "#fefdfb",
+        "color1": "#A7B0BA",
+        "color2": "#E3A9A6",
+        "color3": "#F2D2B3",
+        "color4": "#A19FE6",
+        "color5": "#D1AFD2",
+        "color6": "#E6D2D2",
+        "color7": "#082463",
+        "color8": "#97948c",
+        "color9": "#A7B0BA",
+        "color10": "#E3A9A6",
+        "color11": "#F2D2B3",
+        "color12": "#A19FE6",
+        "color13": "#D1AFD2",
+        "color14": "#E6D2D2",
+        "color15": "#082463"
+    }
+}

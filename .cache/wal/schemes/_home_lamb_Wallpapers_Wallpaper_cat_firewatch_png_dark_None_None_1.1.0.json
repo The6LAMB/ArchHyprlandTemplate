@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/cat_firewatch.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0d16",
+        "foreground": "#d8d4da",
+        "cursor": "#d8d4da"
+    },
+    "colors": {
+        "color0": "#0f0d16",
+        "color1": "#6D6B7D",
+        "color2": "#747184",
+        "color3": "#847C91",
+        "color4": "#988BA2",
+        "color5": "#9A90A4",
+        "color6": "#BBB6C4",
+        "color7": "#d8d4da",
+        "color8": "#979498",
+        "color9": "#6D6B7D",
+        "color10": "#747184",
+        "color11": "#847C91",
+        "color12": "#988BA2",
+        "color13": "#9A90A4",
+        "color14": "#BBB6C4",
+        "color15": "#d8d4da"
+    }
+}

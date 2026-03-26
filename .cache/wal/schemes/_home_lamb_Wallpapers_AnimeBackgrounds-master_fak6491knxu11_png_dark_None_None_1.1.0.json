@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/fak6491knxu11.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0C1412",
+        "foreground": "#c3c6c6",
+        "cursor": "#c3c6c6"
+    },
+    "colors": {
+        "color0": "#0C1412",
+        "color1": "#4D514F",
+        "color2": "#5C696B",
+        "color3": "#838579",
+        "color4": "#3E6183",
+        "color5": "#647686",
+        "color6": "#738A90",
+        "color7": "#c3c6c6",
+        "color8": "#888a8a",
+        "color9": "#4D514F",
+        "color10": "#5C696B",
+        "color11": "#838579",
+        "color12": "#3E6183",
+        "color13": "#647686",
+        "color14": "#738A90",
+        "color15": "#c3c6c6"
+    }
+}

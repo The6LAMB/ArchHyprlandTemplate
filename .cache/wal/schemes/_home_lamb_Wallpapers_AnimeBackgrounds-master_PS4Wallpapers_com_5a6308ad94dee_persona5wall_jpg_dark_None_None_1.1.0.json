@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/PS4Wallpapers.com_5a6308ad94dee_persona5wall.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#09090A",
+        "foreground": "#dfdfdf",
+        "cursor": "#dfdfdf"
+    },
+    "colors": {
+        "color0": "#09090A",
+        "color1": "#D40A0B",
+        "color2": "#EE0000",
+        "color3": "#7E817E",
+        "color4": "#8E908E",
+        "color5": "#AEAFAD",
+        "color6": "#C3BCBB",
+        "color7": "#dfdfdf",
+        "color8": "#9c9c9c",
+        "color9": "#D40A0B",
+        "color10": "#EE0000",
+        "color11": "#7E817E",
+        "color12": "#8E908E",
+        "color13": "#AEAFAD",
+        "color14": "#C3BCBB",
+        "color15": "#dfdfdf"
+    }
+}

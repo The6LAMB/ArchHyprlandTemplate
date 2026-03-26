@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/warrior-girl-3840x2160-katana-girl-4k-4506.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fdfcfa",
+        "foreground": "#06071D",
+        "cursor": "#06071D"
+    },
+    "colors": {
+        "color0": "#fdfcfa",
+        "color1": "#5953AF",
+        "color2": "#5F41C5",
+        "color3": "#734BCE",
+        "color4": "#A86A96",
+        "color5": "#8E57E9",
+        "color6": "#46ACDA",
+        "color7": "#06071D",
+        "color8": "#928d88",
+        "color9": "#5953AF",
+        "color10": "#5F41C5",
+        "color11": "#734BCE",
+        "color12": "#A86A96",
+        "color13": "#8E57E9",
+        "color14": "#46ACDA",
+        "color15": "#06071D"
+    }
+}

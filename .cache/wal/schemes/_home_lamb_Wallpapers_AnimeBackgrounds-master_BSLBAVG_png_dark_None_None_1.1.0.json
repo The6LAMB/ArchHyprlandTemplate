@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/BSLBAVG.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0302",
+        "foreground": "#9ac4dd",
+        "cursor": "#9ac4dd"
+    },
+    "colors": {
+        "color0": "#0D0302",
+        "color1": "#B44740",
+        "color2": "#EA634D",
+        "color3": "#FD9E1F",
+        "color4": "#FBCE3C",
+        "color5": "#F5A754",
+        "color6": "#446DB4",
+        "color7": "#9ac4dd",
+        "color8": "#6b899a",
+        "color9": "#B44740",
+        "color10": "#EA634D",
+        "color11": "#FD9E1F",
+        "color12": "#FBCE3C",
+        "color13": "#F5A754",
+        "color14": "#446DB4",
+        "color15": "#9ac4dd"
+    }
+}

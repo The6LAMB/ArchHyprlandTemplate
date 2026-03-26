@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Images/Wallpapers/WallpaperClaireObscure.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090504",
+        "foreground": "#dbcac4",
+        "cursor": "#dbcac4"
+    },
+    "colors": {
+        "color0": "#090504",
+        "color1": "#937369",
+        "color2": "#9B8379",
+        "color3": "#A8867A",
+        "color4": "#C48C7C",
+        "color5": "#AD9789",
+        "color6": "#B29389",
+        "color7": "#dbcac4",
+        "color8": "#998d89",
+        "color9": "#937369",
+        "color10": "#9B8379",
+        "color11": "#A8867A",
+        "color12": "#C48C7C",
+        "color13": "#AD9789",
+        "color14": "#B29389",
+        "color15": "#dbcac4"
+    }
+}

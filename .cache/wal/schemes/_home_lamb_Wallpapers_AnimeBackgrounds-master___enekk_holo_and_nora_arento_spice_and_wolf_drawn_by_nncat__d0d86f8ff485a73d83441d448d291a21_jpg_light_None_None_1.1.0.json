@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/__enekk_holo_and_nora_arento_spice_and_wolf_drawn_by_nncat__d0d86f8ff485a73d83441d448d291a21.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fdfdfd",
+        "foreground": "#39190C",
+        "cursor": "#39190C"
+    },
+    "colors": {
+        "color0": "#fdfdfd",
+        "color1": "#A39669",
+        "color2": "#D1A06D",
+        "color3": "#B2AF9E",
+        "color4": "#DBB093",
+        "color5": "#D8D4AF",
+        "color6": "#B3D4F7",
+        "color7": "#39190C",
+        "color8": "#929494",
+        "color9": "#A39669",
+        "color10": "#D1A06D",
+        "color11": "#B2AF9E",
+        "color12": "#DBB093",
+        "color13": "#D8D4AF",
+        "color14": "#B3D4F7",
+        "color15": "#39190C"
+    }
+}

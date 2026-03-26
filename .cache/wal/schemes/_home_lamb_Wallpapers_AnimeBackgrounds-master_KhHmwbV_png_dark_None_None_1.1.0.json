@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/KhHmwbV.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0C1825",
+        "foreground": "#f0e6df",
+        "cursor": "#f0e6df"
+    },
+    "colors": {
+        "color0": "#0C1825",
+        "color1": "#607380",
+        "color2": "#61AFDC",
+        "color3": "#5EB2E2",
+        "color4": "#5ABDF1",
+        "color5": "#B5A8A4",
+        "color6": "#FEDCC5",
+        "color7": "#f0e6df",
+        "color8": "#a8a19c",
+        "color9": "#607380",
+        "color10": "#61AFDC",
+        "color11": "#5EB2E2",
+        "color12": "#5ABDF1",
+        "color13": "#B5A8A4",
+        "color14": "#FEDCC5",
+        "color15": "#f0e6df"
+    }
+}

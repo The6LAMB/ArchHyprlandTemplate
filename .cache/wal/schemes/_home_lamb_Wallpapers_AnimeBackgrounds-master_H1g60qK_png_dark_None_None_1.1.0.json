@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/H1g60qK.png",
+    "alpha": "100",
+    "special": {
+        "background": "#351c1c",
+        "foreground": "#c7d0dd",
+        "cursor": "#c7d0dd"
+    },
+    "colors": {
+        "color0": "#351c1c",
+        "color1": "#8A7789",
+        "color2": "#7B97C1",
+        "color3": "#9891A1",
+        "color4": "#C5BBB5",
+        "color5": "#FAE8AF",
+        "color6": "#8FA8C9",
+        "color7": "#c7d0dd",
+        "color8": "#8b919a",
+        "color9": "#8A7789",
+        "color10": "#7B97C1",
+        "color11": "#9891A1",
+        "color12": "#C5BBB5",
+        "color13": "#FAE8AF",
+        "color14": "#8FA8C9",
+        "color15": "#c7d0dd"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/garei-008-_1024\u00d7768.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a080a",
+        "foreground": "#d1cdc6",
+        "cursor": "#d1cdc6"
+    },
+    "colors": {
+        "color0": "#0a080a",
+        "color1": "#BD5624",
+        "color2": "#F75A58",
+        "color3": "#EBA214",
+        "color4": "#FBE90F",
+        "color5": "#AA9264",
+        "color6": "#41AEB3",
+        "color7": "#d1cdc6",
+        "color8": "#928f8a",
+        "color9": "#BD5624",
+        "color10": "#F75A58",
+        "color11": "#EBA214",
+        "color12": "#FBE90F",
+        "color13": "#AA9264",
+        "color14": "#41AEB3",
+        "color15": "#d1cdc6"
+    }
+}

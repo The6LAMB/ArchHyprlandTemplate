@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/__ning_hai_and_ping_hai_azur_lane_drawn_by_kieed__015582db8278526808362dfce0acc86a.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#160d0c",
+        "foreground": "#ede0c8",
+        "cursor": "#ede0c8"
+    },
+    "colors": {
+        "color0": "#160d0c",
+        "color1": "#AF8E6E",
+        "color2": "#D29F6E",
+        "color3": "#E1C77C",
+        "color4": "#A4698E",
+        "color5": "#B19F93",
+        "color6": "#D3AD93",
+        "color7": "#ede0c8",
+        "color8": "#a59c8c",
+        "color9": "#AF8E6E",
+        "color10": "#D29F6E",
+        "color11": "#E1C77C",
+        "color12": "#A4698E",
+        "color13": "#B19F93",
+        "color14": "#D3AD93",
+        "color15": "#ede0c8"
+    }
+}

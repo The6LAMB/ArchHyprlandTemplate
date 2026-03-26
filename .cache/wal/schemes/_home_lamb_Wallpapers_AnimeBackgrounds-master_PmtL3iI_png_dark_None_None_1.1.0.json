@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/PmtL3iI.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0F0607",
+        "foreground": "#f2e2cc",
+        "cursor": "#f2e2cc"
+    },
+    "colors": {
+        "color0": "#0F0607",
+        "color1": "#E03642",
+        "color2": "#97685D",
+        "color3": "#D3924A",
+        "color4": "#DC9B5A",
+        "color5": "#C35F8E",
+        "color6": "#C2A49E",
+        "color7": "#f2e2cc",
+        "color8": "#a99e8e",
+        "color9": "#E03642",
+        "color10": "#97685D",
+        "color11": "#D3924A",
+        "color12": "#DC9B5A",
+        "color13": "#C35F8E",
+        "color14": "#C2A49E",
+        "color15": "#f2e2cc"
+    }
+}

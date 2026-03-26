@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/X3DKieW.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f6f3f3",
+        "foreground": "#201A20",
+        "cursor": "#201A20"
+    },
+    "colors": {
+        "color0": "#f6f3f3",
+        "color1": "#994147",
+        "color2": "#8E6674",
+        "color3": "#666A8B",
+        "color4": "#967489",
+        "color5": "#CB729A",
+        "color6": "#9A8D8A",
+        "color7": "#201A20",
+        "color8": "#77696a",
+        "color9": "#994147",
+        "color10": "#8E6674",
+        "color11": "#666A8B",
+        "color12": "#967489",
+        "color13": "#CB729A",
+        "color14": "#9A8D8A",
+        "color15": "#201A20"
+    }
+}

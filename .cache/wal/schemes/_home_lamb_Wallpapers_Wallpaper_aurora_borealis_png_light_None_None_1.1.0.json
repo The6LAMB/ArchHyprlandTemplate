@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/aurora_borealis.png",
+    "alpha": "100",
+    "special": {
+        "background": "#f0eeee",
+        "foreground": "#11151A",
+        "cursor": "#11151A"
+    },
+    "colors": {
+        "color0": "#f0eeee",
+        "color1": "#495464",
+        "color2": "#4E5E64",
+        "color3": "#5E8A7A",
+        "color4": "#6CAD8A",
+        "color5": "#73C392",
+        "color6": "#79CEAD",
+        "color7": "#11151A",
+        "color8": "#5e5756",
+        "color9": "#495464",
+        "color10": "#4E5E64",
+        "color11": "#5E8A7A",
+        "color12": "#6CAD8A",
+        "color13": "#73C392",
+        "color14": "#79CEAD",
+        "color15": "#11151A"
+    }
+}

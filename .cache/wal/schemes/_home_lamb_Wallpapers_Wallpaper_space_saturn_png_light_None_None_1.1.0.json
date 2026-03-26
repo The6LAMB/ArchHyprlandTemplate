@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/space_saturn.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fefefd",
+        "foreground": "#110518",
+        "cursor": "#110518"
+    },
+    "colors": {
+        "color0": "#fefefd",
+        "color1": "#B03936",
+        "color2": "#D7CA46",
+        "color3": "#713E95",
+        "color4": "#9859B0",
+        "color5": "#A95FCA",
+        "color6": "#7C87E0",
+        "color7": "#110518",
+        "color8": "#969794",
+        "color9": "#B03936",
+        "color10": "#D7CA46",
+        "color11": "#713E95",
+        "color12": "#9859B0",
+        "color13": "#A95FCA",
+        "color14": "#7C87E0",
+        "color15": "#110518"
+    }
+}

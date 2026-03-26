@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/ldqi4rgcmbx11.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fdfbf9",
+        "foreground": "#29222B",
+        "cursor": "#29222B"
+    },
+    "colors": {
+        "color0": "#fdfbf9",
+        "color1": "#C5966F",
+        "color2": "#E2966C",
+        "color3": "#947D8F",
+        "color4": "#A8969A",
+        "color5": "#DCAA96",
+        "color6": "#EFCEAB",
+        "color7": "#29222B",
+        "color8": "#928984",
+        "color9": "#C5966F",
+        "color10": "#E2966C",
+        "color11": "#947D8F",
+        "color12": "#A8969A",
+        "color13": "#DCAA96",
+        "color14": "#EFCEAB",
+        "color15": "#29222B"
+    }
+}

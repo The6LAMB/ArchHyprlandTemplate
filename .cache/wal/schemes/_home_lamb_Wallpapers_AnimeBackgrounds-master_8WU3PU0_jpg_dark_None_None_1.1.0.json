@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/8WU3PU0.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#010116",
+        "foreground": "#d1c7c3",
+        "cursor": "#d1c7c3"
+    },
+    "colors": {
+        "color0": "#010116",
+        "color1": "#A44A66",
+        "color2": "#AD9477",
+        "color3": "#1E1C8F",
+        "color4": "#5854AF",
+        "color5": "#BD4E94",
+        "color6": "#788682",
+        "color7": "#d1c7c3",
+        "color8": "#928b88",
+        "color9": "#A44A66",
+        "color10": "#AD9477",
+        "color11": "#1E1C8F",
+        "color12": "#5854AF",
+        "color13": "#BD4E94",
+        "color14": "#788682",
+        "color15": "#d1c7c3"
+    }
+}

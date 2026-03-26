@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/wallhaven-277293.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1a1518",
+        "foreground": "#e6e6e8",
+        "cursor": "#e6e6e8"
+    },
+    "colors": {
+        "color0": "#1a1518",
+        "color1": "#B2BFBE",
+        "color2": "#CEB8AC",
+        "color3": "#DCC8B5",
+        "color4": "#D7D0CB",
+        "color5": "#E8DAD0",
+        "color6": "#F8E7D8",
+        "color7": "#e6e6e8",
+        "color8": "#a1a1a2",
+        "color9": "#B2BFBE",
+        "color10": "#CEB8AC",
+        "color11": "#DCC8B5",
+        "color12": "#D7D0CB",
+        "color13": "#E8DAD0",
+        "color14": "#F8E7D8",
+        "color15": "#e6e6e8"
+    }
+}

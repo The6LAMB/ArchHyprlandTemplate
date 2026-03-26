@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/moments_before_desk.png",
+    "alpha": "100",
+    "special": {
+        "background": "#f3f5f6",
+        "foreground": "#101419",
+        "cursor": "#101419"
+    },
+    "colors": {
+        "color0": "#f3f5f6",
+        "color1": "#3B4E65",
+        "color2": "#444D5B",
+        "color3": "#4A5465",
+        "color4": "#5B6B6F",
+        "color5": "#8B7576",
+        "color6": "#73AE90",
+        "color7": "#101419",
+        "color8": "#6c7278",
+        "color9": "#3B4E65",
+        "color10": "#444D5B",
+        "color11": "#4A5465",
+        "color12": "#5B6B6F",
+        "color13": "#8B7576",
+        "color14": "#73AE90",
+        "color15": "#101419"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/yukino_yukinoshita_wallpaper_hd_by_tahmidismyname-d8wzxut.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f7f9fc",
+        "foreground": "#04050D",
+        "cursor": "#04050D"
+    },
+    "colors": {
+        "color0": "#f7f9fc",
+        "color1": "#4E536A",
+        "color2": "#656574",
+        "color3": "#68708B",
+        "color4": "#3757C8",
+        "color5": "#8C728D",
+        "color6": "#6B95D3",
+        "color7": "#04050D",
+        "color8": "#798490",
+        "color9": "#4E536A",
+        "color10": "#656574",
+        "color11": "#68708B",
+        "color12": "#3757C8",
+        "color13": "#8C728D",
+        "color14": "#6B95D3",
+        "color15": "#04050D"
+    }
+}

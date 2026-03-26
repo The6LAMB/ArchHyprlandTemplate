@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/spider_verse.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#09040D",
+        "foreground": "#f4e2cd",
+        "cursor": "#f4e2cd"
+    },
+    "colors": {
+        "color0": "#09040D",
+        "color1": "#2D5592",
+        "color2": "#66668B",
+        "color3": "#AF9AAD",
+        "color4": "#D1ACAE",
+        "color5": "#E6B4A6",
+        "color6": "#FACEAF",
+        "color7": "#f4e2cd",
+        "color8": "#aa9e8f",
+        "color9": "#2D5592",
+        "color10": "#66668B",
+        "color11": "#AF9AAD",
+        "color12": "#D1ACAE",
+        "color13": "#E6B4A6",
+        "color14": "#FACEAF",
+        "color15": "#f4e2cd"
+    }
+}

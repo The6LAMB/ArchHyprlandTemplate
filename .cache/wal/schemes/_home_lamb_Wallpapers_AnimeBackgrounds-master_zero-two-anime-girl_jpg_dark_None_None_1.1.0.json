@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/zero-two-anime-girl.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a101e",
+        "foreground": "#afbace",
+        "cursor": "#afbace"
+    },
+    "colors": {
+        "color0": "#0a101e",
+        "color1": "#664D6D",
+        "color2": "#A43F45",
+        "color3": "#E25E50",
+        "color4": "#2C69A1",
+        "color5": "#6E6893",
+        "color6": "#A3748A",
+        "color7": "#afbace",
+        "color8": "#7a8290",
+        "color9": "#664D6D",
+        "color10": "#A43F45",
+        "color11": "#E25E50",
+        "color12": "#2C69A1",
+        "color13": "#6E6893",
+        "color14": "#A3748A",
+        "color15": "#afbace"
+    }
+}

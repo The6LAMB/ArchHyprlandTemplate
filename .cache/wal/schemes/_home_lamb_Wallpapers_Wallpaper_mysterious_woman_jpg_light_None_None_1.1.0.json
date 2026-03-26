@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/mysterious_woman.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f7ece7",
+        "foreground": "#23171A",
+        "cursor": "#23171A"
+    },
+    "colors": {
+        "color0": "#f7ece7",
+        "color1": "#476547",
+        "color2": "#64694A",
+        "color3": "#945C4B",
+        "color4": "#907553",
+        "color5": "#AE7B59",
+        "color6": "#C77D5E",
+        "color7": "#23171A",
+        "color8": "#794f39",
+        "color9": "#476547",
+        "color10": "#64694A",
+        "color11": "#945C4B",
+        "color12": "#907553",
+        "color13": "#AE7B59",
+        "color14": "#C77D5E",
+        "color15": "#23171A"
+    }
+}

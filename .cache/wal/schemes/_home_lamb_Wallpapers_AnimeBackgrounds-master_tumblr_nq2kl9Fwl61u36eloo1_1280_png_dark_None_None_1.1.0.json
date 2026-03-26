@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/tumblr_nq2kl9Fwl61u36eloo1_1280.png",
+    "alpha": "100",
+    "special": {
+        "background": "#150f15",
+        "foreground": "#dfcedd",
+        "cursor": "#dfcedd"
+    },
+    "colors": {
+        "color0": "#150f15",
+        "color1": "#DE9471",
+        "color2": "#6D698E",
+        "color3": "#B0768C",
+        "color4": "#AA959C",
+        "color5": "#E9A49D",
+        "color6": "#F7D2AF",
+        "color7": "#dfcedd",
+        "color8": "#9c909a",
+        "color9": "#DE9471",
+        "color10": "#6D698E",
+        "color11": "#B0768C",
+        "color12": "#AA959C",
+        "color13": "#E9A49D",
+        "color14": "#F7D2AF",
+        "color15": "#dfcedd"
+    }
+}

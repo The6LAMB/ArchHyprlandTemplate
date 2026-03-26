@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/wallpapersedgerunners2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050306",
+        "foreground": "#f2eede",
+        "cursor": "#f2eede"
+    },
+    "colors": {
+        "color0": "#050306",
+        "color1": "#E8E63F",
+        "color2": "#9A906D",
+        "color3": "#4D8699",
+        "color4": "#A8AB92",
+        "color5": "#B9C2A9",
+        "color6": "#DDD3B1",
+        "color7": "#f2eede",
+        "color8": "#a9a69b",
+        "color9": "#E8E63F",
+        "color10": "#9A906D",
+        "color11": "#4D8699",
+        "color12": "#A8AB92",
+        "color13": "#B9C2A9",
+        "color14": "#DDD3B1",
+        "color15": "#f2eede"
+    }
+}

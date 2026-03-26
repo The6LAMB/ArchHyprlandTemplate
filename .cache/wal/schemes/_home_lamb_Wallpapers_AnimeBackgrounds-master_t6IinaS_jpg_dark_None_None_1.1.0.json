@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/t6IinaS.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151215",
+        "foreground": "#e1cbc2",
+        "cursor": "#e1cbc2"
+    },
+    "colors": {
+        "color0": "#151215",
+        "color1": "#727689",
+        "color2": "#9C7984",
+        "color3": "#7D8191",
+        "color4": "#8A8C98",
+        "color5": "#9E989E",
+        "color6": "#ADABAF",
+        "color7": "#e1cbc2",
+        "color8": "#9d8e87",
+        "color9": "#727689",
+        "color10": "#9C7984",
+        "color11": "#7D8191",
+        "color12": "#8A8C98",
+        "color13": "#9E989E",
+        "color14": "#ADABAF",
+        "color15": "#e1cbc2"
+    }
+}

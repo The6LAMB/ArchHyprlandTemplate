@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/Anime-Cat-Girl-Wallpaper-HD.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fdfefe",
+        "foreground": "#9B6065",
+        "cursor": "#9B6065"
+    },
+    "colors": {
+        "color0": "#fdfefe",
+        "color1": "#A098E3",
+        "color2": "#E1ACDF",
+        "color3": "#B2CBE5",
+        "color4": "#E4D3D5",
+        "color5": "#F8E8D3",
+        "color6": "#F6CFEA",
+        "color7": "#9B6065",
+        "color8": "#939797",
+        "color9": "#A098E3",
+        "color10": "#E1ACDF",
+        "color11": "#B2CBE5",
+        "color12": "#E4D3D5",
+        "color13": "#F8E8D3",
+        "color14": "#F6CFEA",
+        "color15": "#9B6065"
+    }
+}

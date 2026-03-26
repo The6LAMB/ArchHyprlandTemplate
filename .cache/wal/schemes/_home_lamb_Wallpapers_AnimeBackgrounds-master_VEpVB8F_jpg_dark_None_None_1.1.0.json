@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/VEpVB8F.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1d161e",
+        "foreground": "#d9c6d2",
+        "cursor": "#d9c6d2"
+    },
+    "colors": {
+        "color0": "#1d161e",
+        "color1": "#38548E",
+        "color2": "#5C649B",
+        "color3": "#9A6C9D",
+        "color4": "#D6729A",
+        "color5": "#A78992",
+        "color6": "#DD9A9A",
+        "color7": "#d9c6d2",
+        "color8": "#978a93",
+        "color9": "#38548E",
+        "color10": "#5C649B",
+        "color11": "#9A6C9D",
+        "color12": "#D6729A",
+        "color13": "#A78992",
+        "color14": "#DD9A9A",
+        "color15": "#d9c6d2"
+    }
+}

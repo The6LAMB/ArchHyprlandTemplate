@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/AnimeBackgrounds-master/arefuig43fqiug435wtuihogw45euoh.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#2d2521",
+        "foreground": "#ebe9e1",
+        "cursor": "#ebe9e1"
+    },
+    "colors": {
+        "color0": "#2d2521",
+        "color1": "#FEE26E",
+        "color2": "#48778F",
+        "color3": "#66B3B8",
+        "color4": "#BDBC9C",
+        "color5": "#F0DF9F",
+        "color6": "#99DDDF",
+        "color7": "#ebe9e1",
+        "color8": "#a4a39d",
+        "color9": "#FEE26E",
+        "color10": "#48778F",
+        "color11": "#66B3B8",
+        "color12": "#BDBC9C",
+        "color13": "#F0DF9F",
+        "color14": "#99DDDF",
+        "color15": "#ebe9e1"
+    }
+}

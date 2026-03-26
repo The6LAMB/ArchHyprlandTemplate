@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/lamb/Wallpapers/Wallpaper/switch_swirl.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f3ecec",
+        "foreground": "#0D1017",
+        "cursor": "#0D1017"
+    },
+    "colors": {
+        "color0": "#f3ecec",
+        "color1": "#552655",
+        "color2": "#565454",
+        "color3": "#D20C2D",
+        "color4": "#FE0028",
+        "color5": "#9F3247",
+        "color6": "#6D358A",
+        "color7": "#0D1017",
+        "color8": "#694f50",
+        "color9": "#552655",
+        "color10": "#565454",
+        "color11": "#D20C2D",
+        "color12": "#FE0028",
+        "color13": "#9F3247",
+        "color14": "#6D358A",
+        "color15": "#0D1017"
+    }
+}
