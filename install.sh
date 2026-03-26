@@ -99,9 +99,7 @@ PACMAN_PKGS=(
     qt5-quickcontrols2
 
     # Outils
-    git
     base-devel
-    neofetch
     mpv
     swaync
 )
