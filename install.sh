@@ -217,22 +217,33 @@ if [ -d "$DOTS/WallpapersLock" ]; then
     echo -e "${GREEN}  [✔] WallpapersLock copiés dans ~/WallpapersLock${NC}"
 fi
 
-# Génère les couleurs pywal d'abord
+# Copie le cache wal du repo EN PREMIER (contient les .conf custom)
 echo ""
-echo -e "${CYAN}[5/7] Génération des couleurs pywal...${NC}"
+echo -e "${CYAN}[5/7] Configuration pywal...${NC}"
+
+if [ -d "$DOTS/.cache/wal" ]; then
+    mkdir -p "$HOME/.cache/wal"
+    find "$DOTS/.cache/wal" -name ".idea" -type d -exec rm -rf {} + 2>/dev/null
+    cp -r "$DOTS/.cache/wal/"* "$HOME/.cache/wal/"
+    echo -e "${GREEN}  [✔] Cache wal copié dans ~/.cache/wal/${NC}"
+fi
+
+# Supprime .idea dans les templates si présent (crash pywal sinon)
+find "$HOME/.config/wal" -name ".idea" -type d -exec rm -rf {} + 2>/dev/null
+
+# Génère les couleurs pywal (|| true pour pas crasher le script si erreur)
 FIRST_WALL=$(find "$HOME/Wallpapers" -type f \( -name "*.jpg" -o -name "*.png" -o -name "*.jpeg" \) 2>/dev/null | head -1)
 if [ -n "$FIRST_WALL" ]; then
-    wal -i "$FIRST_WALL"
+    wal -i "$FIRST_WALL" || true
     echo -e "${GREEN}  [✔] Couleurs pywal générées depuis $(basename "$FIRST_WALL")${NC}"
 else
     echo -e "${YELLOW}  [⚠] Aucun wallpaper trouvé, lance 'wal -i ~/Wallpapers/ton_wall.jpg' manuellement${NC}"
 fi
 
-# Copie le cache wal custom PAR-DESSUS (écrase les fichiers pywal avec tes versions custom)
+# Re-copie les fichiers custom du cache wal par-dessus (au cas où pywal a écrasé)
 if [ -d "$DOTS/.cache/wal" ]; then
-    mkdir -p "$HOME/.cache/wal"
     cp -r "$DOTS/.cache/wal/"* "$HOME/.cache/wal/"
-    echo -e "${GREEN}  [✔] Cache wal custom copié dans ~/.cache/wal/${NC}"
+    echo -e "${GREEN}  [✔] Fichiers wal custom restaurés${NC}"
 fi
 
 # ══════════════════════════════════════════════════════════════════
@@ -242,14 +253,28 @@ fi
 echo ""
 echo -e "${CYAN}[6/7] Configuration SDDM...${NC}"
 
+# Copie le thème silent
+if [ -d "$DOTS/sddm/theme" ]; then
+    sudo mkdir -p /usr/share/sddm/themes/silent
+    sudo cp -r "$DOTS/sddm/theme/"* /usr/share/sddm/themes/silent/
+    echo -e "${GREEN}  [✔] Thème SDDM 'silent' installé${NC}"
+fi
+
+# Copie le sddm.conf du repo si présent
 if [ -f "$DOTS/sddm/sddm.conf" ]; then
     sudo cp "$DOTS/sddm/sddm.conf" /etc/sddm.conf
     echo -e "${GREEN}  [✔] sddm.conf copié${NC}"
-fi
+else
+    # Sinon crée un sddm.conf qui pointe vers le thème silent
+    sudo mkdir -p /etc/sddm.conf.d
+    sudo tee /etc/sddm.conf.d/theme.conf > /dev/null << EOF
+[Theme]
+Current=silent
 
-if [ -d "$DOTS/sddm/theme" ]; then
-    sudo cp -r "$DOTS/sddm/theme" /usr/share/sddm/themes/silent
-    echo -e "${GREEN}  [✔] Thème SDDM 'silent' installé${NC}"
+[General]
+InputMethod=qtvirtualkeyboard
+EOF
+    echo -e "${GREEN}  [✔] sddm.conf.d/theme.conf créé avec thème silent${NC}"
 fi
 
 sudo systemctl enable sddm
