@@ -38,7 +38,7 @@ echo -e "${GREEN}[✔] Arch Linux détecté${NC}"
 # ══════════════════════════════════════════════════════════════════
 
 echo ""
-echo -e "${CYAN}[1/6] Installation des paquets officiels...${NC}"
+echo -e "${CYAN}[1/7] Installation des paquets officiels...${NC}"
 
 PACMAN_PKGS=(
     # Hyprland & composants
@@ -64,6 +64,10 @@ PACMAN_PKGS=(
     kitty
     fish
     ranger
+
+    # Outils fish (ta config fish en dépend)
+    eza
+    zoxide
 
     # Gestionnaire de fichiers
     thunar
@@ -95,10 +99,15 @@ PACMAN_PKGS=(
 
     # Display Manager
     sddm
-    qt5-graphicaleffects
-    qt5-quickcontrols2
+    qt6-svg
+    qt6-virtualkeyboard
+    qt6-multimedia-ffmpeg
+
+    # GPU (driver générique)
+    mesa
 
     # Outils
+    git
     base-devel
     mpv
     swaync
@@ -112,7 +121,7 @@ sudo pacman -S --needed --noconfirm "${PACMAN_PKGS[@]}"
 # ══════════════════════════════════════════════════════════════════
 
 echo ""
-echo -e "${CYAN}[2/6] Installation de yay et paquets AUR...${NC}"
+echo -e "${CYAN}[2/7] Installation de yay et paquets AUR...${NC}"
 
 if ! command -v yay &> /dev/null; then
     echo -e "${YELLOW}Installation de yay...${NC}"
@@ -154,7 +163,7 @@ yay -S --needed --noconfirm "${AUR_PKGS[@]}"
 # ══════════════════════════════════════════════════════════════════
 
 echo ""
-echo -e "${CYAN}[3/6] Déploiement des dotfiles...${NC}"
+echo -e "${CYAN}[3/7] Déploiement des dotfiles...${NC}"
 
 # Backup des configs existantes
 BACKUP_DIR="$HOME/.config-backup-$(date +%Y%m%d_%H%M%S)"
@@ -174,7 +183,6 @@ CONFIG_DIRS=(
     gtk-4.0
     nwg-look
     swaync
-    neofetch
     spicetify
     mpv
 )
@@ -185,30 +193,18 @@ for dir in "${CONFIG_DIRS[@]}"; do
             cp -r "$HOME/.config/$dir" "$BACKUP_DIR/"
         fi
         cp -r "$DOTS/.config/$dir" "$HOME/.config/"
-        echo -e "${GREEN}  [✔] $dir${NC}"
+        echo -e "${GREEN}  [✔] .config/$dir${NC}"
     else
-        echo -e "${YELLOW}  [—] $dir (pas dans le repo, skip)${NC}"
-    fi
-done
-
-for dir in "${CONFIG_DIRS[@]}"; do
-    if [ -d "$DOTS/.cache/wal/$dir" ]; then
-        if [ -d "$HOME/.cache/wal/$dir" ]; then
-            cp -r "$HOME/.cache/wal/$dir" "$BACKUP_DIR/"
-        fi
-        cp -r "$DOTS/.cache/wal/$dir" "$HOME/.config/"
-        echo -e "${GREEN}  [✔] $dir${NC}"
-    else
-        echo -e "${YELLOW}  [—] $dir (pas dans le repo, skip)${NC}"
+        echo -e "${YELLOW}  [—] .config/$dir (pas dans le repo, skip)${NC}"
     fi
 done
 
 # ══════════════════════════════════════════════════════════════════
-#  5. WALLPAPERS
+#  5. WALLPAPERS + CACHE WAL + PYWAL
 # ══════════════════════════════════════════════════════════════════
 
 echo ""
-echo -e "${CYAN}[4/6] Installation des wallpapers...${NC}"
+echo -e "${CYAN}[4/7] Installation des wallpapers...${NC}"
 
 if [ -d "$DOTS/Wallpapers" ]; then
     cp -r "$DOTS/Wallpapers" "$HOME/"
@@ -220,14 +216,30 @@ if [ -d "$DOTS/WallpapersLock" ]; then
     echo -e "${GREEN}  [✔] WallpapersLock copiés dans ~/WallpapersLock${NC}"
 fi
 
+# Génère les couleurs pywal d'abord
+echo ""
+echo -e "${CYAN}[5/7] Génération des couleurs pywal...${NC}"
+FIRST_WALL=$(find "$HOME/Wallpapers" -type f \( -name "*.jpg" -o -name "*.png" -o -name "*.jpeg" \) 2>/dev/null | head -1)
+if [ -n "$FIRST_WALL" ]; then
+    wal -i "$FIRST_WALL"
+    echo -e "${GREEN}  [✔] Couleurs pywal générées depuis $(basename "$FIRST_WALL")${NC}"
+else
+    echo -e "${YELLOW}  [⚠] Aucun wallpaper trouvé, lance 'wal -i ~/Wallpapers/ton_wall.jpg' manuellement${NC}"
+fi
 
+# Copie le cache wal custom PAR-DESSUS (écrase les fichiers pywal avec tes versions custom)
+if [ -d "$DOTS/.cache/wal" ]; then
+    mkdir -p "$HOME/.cache/wal"
+    cp -r "$DOTS/.cache/wal/"* "$HOME/.cache/wal/"
+    echo -e "${GREEN}  [✔] Cache wal custom copié dans ~/.cache/wal/${NC}"
+fi
 
 # ══════════════════════════════════════════════════════════════════
 #  6. SDDM
 # ══════════════════════════════════════════════════════════════════
 
 echo ""
-echo -e "${CYAN}[5/6] Configuration SDDM...${NC}"
+echo -e "${CYAN}[6/7] Configuration SDDM...${NC}"
 
 if [ -f "$DOTS/sddm/sddm.conf" ]; then
     sudo cp "$DOTS/sddm/sddm.conf" /etc/sddm.conf
@@ -247,7 +259,10 @@ echo -e "${GREEN}  [✔] SDDM activé${NC}"
 # ══════════════════════════════════════════════════════════════════
 
 echo ""
-echo -e "${CYAN}[6/6] Finitions...${NC}"
+echo -e "${CYAN}[7/7] Finitions...${NC}"
+
+# Dossiers nécessaires
+mkdir -p "$HOME/.local/share/z/data"
 
 # Fish comme shell par défaut
 if command -v fish &> /dev/null; then
@@ -276,8 +291,6 @@ echo "║  2. Édite ~/.config/hypr/environment.conf pour           ║"
 echo "║     adapter les variables GPU à ta config                ║"
 echo "║  3. Édite ~/.config/hypr/monitors.conf pour              ║"
 echo "║     tes écrans                                           ║"
-echo "║  4. Lance 'wal -i ~/Wallpapers/ton_wall.jpg'            ║"
-echo "║     pour générer les couleurs pywal                      ║"
-echo "║  5. Reboot et profite !                                  ║"
+echo "║  4. Reboot et profite !                                  ║"
 echo "╚══════════════════════════════════════════════════════════╝"
 echo -e "${NC}"
