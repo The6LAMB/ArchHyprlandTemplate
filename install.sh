@@ -102,6 +102,7 @@ PACMAN_PKGS=(
     qt6-svg
     qt6-virtualkeyboard
     qt6-multimedia-ffmpeg
+    qt6-5compat
 
     # GPU (driver générique)
     mesa
