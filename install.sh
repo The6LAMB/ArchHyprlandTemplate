@@ -191,6 +191,18 @@ for dir in "${CONFIG_DIRS[@]}"; do
     fi
 done
 
+for dir in "${CONFIG_DIRS[@]}"; do
+    if [ -d "$DOTS/.cache/wal/$dir" ]; then
+        if [ -d "$HOME/.cache/wal/$dir" ]; then
+            cp -r "$HOME/.cache/wal/$dir" "$BACKUP_DIR/"
+        fi
+        cp -r "$DOTS/.cache/wal/$dir" "$HOME/.config/"
+        echo -e "${GREEN}  [✔] $dir${NC}"
+    else
+        echo -e "${YELLOW}  [—] $dir (pas dans le repo, skip)${NC}"
+    fi
+done
+
 # ══════════════════════════════════════════════════════════════════
 #  5. WALLPAPERS
 # ══════════════════════════════════════════════════════════════════
@@ -207,6 +219,8 @@ if [ -d "$DOTS/WallpapersLock" ]; then
     cp -r "$DOTS/WallpapersLock" "$HOME/"
     echo -e "${GREEN}  [✔] WallpapersLock copiés dans ~/WallpapersLock${NC}"
 fi
+
+
 
 # ══════════════════════════════════════════════════════════════════
 #  6. SDDM
