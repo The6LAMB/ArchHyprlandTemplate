@@ -50,6 +50,7 @@ PACMAN_PKGS=(
 
     # Barre & Notifications
     waybar
+    inotify-tools
     mako
 
     # Wallpaper & Thèmes
