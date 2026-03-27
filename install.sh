@@ -133,9 +133,12 @@ PACMAN_PKGS=(
     pipewire-pulse
     wireplumber
 
-    # Fonts
+    # Fonts & Icônes
     ttf-font-awesome
     otf-font-awesome
+    ttf-iosevka-nerd        # Iosevka Nerd Font (utilisé dans style.css waybar)
+    ttf-jetbrains-mono-nerd # Remplace CartographCF (font commerciale non dispo)
+    ttf-nerd-fonts-symbols  # Glyphes Nerd Font (icônes waybar config.json)
 
     # Display Manager
     sddm
