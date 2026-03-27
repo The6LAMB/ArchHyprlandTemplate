@@ -159,7 +159,7 @@ AUR_PKGS=(
 
 echo -e "${YELLOW}Installation de ${#AUR_PKGS[@]} paquets AUR...${NC}"
 yay -S --needed --noconfirm "${AUR_PKGS[@]}"
-
+cp pacman.conf /etc/
 # ══════════════════════════════════════════════════════════════════
 #  4. COPIE DES DOTFILES
 # ══════════════════════════════════════════════════════════════════
