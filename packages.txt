@@ -453,7 +453,7 @@ swappy
 swayidle
 swaylock-effects
 swaync
-swww
+awww
 tactical-exploitation
 tailscale
 tchunt-ng

@@ -14,7 +14,7 @@ fi
 
 echo "Selected wallpaper: $wallpaper"
 
-swww img "$wallpaper" --transition-type simple --transition-fps 60 --transition-duration 0.3
+awww img "$wallpaper" --transition-type simple --transition-fps 60 --transition-duration 0.3
 
 (
     wal_input="$wallpaper"

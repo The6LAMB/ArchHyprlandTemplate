@@ -23,6 +23,24 @@ echo "╚═══════════════════════�
 echo -e "${NC}"
 
 # ══════════════════════════════════════════════════════════════════
+#  0. VÉRIFICATION DROITS SUDO
+# ══════════════════════════════════════════════════════════════════
+
+if [[ $EUID -eq 0 ]]; then
+    echo -e "${RED}[✘] Ne lance pas ce script en tant que root (sudo).${NC}"
+    echo -e "${YELLOW}    Lance-le simplement avec : ./install.sh${NC}"
+    echo -e "${YELLOW}    Le script utilisera sudo uniquement quand nécessaire.${NC}"
+    exit 1
+fi
+
+if ! sudo -v &> /dev/null; then
+    echo -e "${RED}[✘] Tu n'as pas les droits sudo. Impossible de continuer.${NC}"
+    exit 1
+fi
+
+echo -e "${GREEN}[✔] Droits sudo vérifiés${NC}"
+
+# ══════════════════════════════════════════════════════════════════
 #  1. VÉRIFICATIONS
 # ══════════════════════════════════════════════════════════════════
 
@@ -32,6 +50,21 @@ if [ ! -f /etc/arch-release ]; then
 fi
 
 echo -e "${GREEN}[✔] Arch Linux détecté${NC}"
+
+# Vérification des fichiers requis
+REQUIRED_FILES=(
+    "pacman.conf"
+)
+
+for f in "${REQUIRED_FILES[@]}"; do
+    if [[ ! -f "$DOTS/$f" ]]; then
+        echo -e "${RED}[✘] Fichier requis manquant : $f${NC}"
+        echo -e "${RED}    Assure-toi de lancer le script depuis le bon répertoire.${NC}"
+        exit 1
+    fi
+done
+
+echo -e "${GREEN}[✔] Fichiers requis présents${NC}"
 
 # ══════════════════════════════════════════════════════════════════
 #  2. INSTALLATION DES PAQUETS OFFICIELS
@@ -54,7 +87,7 @@ PACMAN_PKGS=(
     mako
 
     # Wallpaper & Thèmes
-    swww
+    awww
     python-pywal
     nwg-look
 
@@ -75,6 +108,12 @@ PACMAN_PKGS=(
 
     # Navigateurs
     firefox
+
+    # Apps (dépôts officiels)
+    discord
+    obsidian
+    spotify-launcher
+    telegram-desktop
 
     # Outils système
     brightnessctl
@@ -118,6 +157,11 @@ PACMAN_PKGS=(
 echo -e "${YELLOW}Installation de ${#PACMAN_PKGS[@]} paquets pacman...${NC}"
 sudo pacman -S --needed --noconfirm "${PACMAN_PKGS[@]}"
 
+# Copie de pacman.conf
+echo -e "${CYAN}  Copie de pacman.conf...${NC}"
+sudo cp "$DOTS/pacman.conf" /etc/pacman.conf
+echo -e "${GREEN}  [✔] pacman.conf copié${NC}"
+
 # ══════════════════════════════════════════════════════════════════
 #  3. INSTALLATION YAY + PAQUETS AUR
 # ══════════════════════════════════════════════════════════════════
@@ -139,11 +183,7 @@ fi
 AUR_PKGS=(
     # Apps
     brave-bin
-    discord
-    obsidian
-    spotify-launcher
     visual-studio-code-bin
-    telegram-desktop
 
     # Thèmes
     whitesur-cursor-theme
@@ -159,12 +199,6 @@ AUR_PKGS=(
 
 echo -e "${YELLOW}Installation de ${#AUR_PKGS[@]} paquets AUR...${NC}"
 yay -S --needed --noconfirm "${AUR_PKGS[@]}"
-
-if [[ -f "$DOTS/pacman.conf" ]]; then
-    sudo cp "$DOTS/pacman.conf" /etc/pacman.conf
-else
-    echo -e "${RED}[✘] pacman.conf introuvable, copie ignorée${NC}"
-fi
 
 # ══════════════════════════════════════════════════════════════════
 #  4. COPIE DES DOTFILES
