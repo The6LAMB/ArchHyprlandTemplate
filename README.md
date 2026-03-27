@@ -196,4 +196,19 @@ hyprctl reload
 
 ---
 
+## 🙏 Credits
+
+This rice wouldn't exist without the work of these people:
+
+| Component | Author | Source |
+|-----------|--------|--------|
+| SDDM theme (SilentSDDM) | [@uiriansan](https://github.com/uiriansan) | [SilentSDDM](https://github.com/uiriansan/SilentSDDM) |
+| Dotfiles base & inspiration | [@LierB](https://github.com/LierB) | [dotfiles](https://github.com/LierB/dotfiles) |
+| Pywal | [@dylanaraps](https://github.com/dylanaraps) | [pywal](https://github.com/dylanaraps/pywal) |
+
+> The hyprlock design is original work by me.
+> If I missed anyone or used your work without proper credit, please open an issue.
+
+---
+
 *Made with 🐑 by [The6LAMB](https://github.com/The6LAMB)*
