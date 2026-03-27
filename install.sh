@@ -159,7 +159,13 @@ AUR_PKGS=(
 
 echo -e "${YELLOW}Installation de ${#AUR_PKGS[@]} paquets AUR...${NC}"
 yay -S --needed --noconfirm "${AUR_PKGS[@]}"
-cp pacman.conf /etc/
+
+if [[ -f "$DOTS/pacman.conf" ]]; then
+    sudo cp "$DOTS/pacman.conf" /etc/pacman.conf
+else
+    echo -e "${RED}[✘] pacman.conf introuvable, copie ignorée${NC}"
+fi
+
 # ══════════════════════════════════════════════════════════════════
 #  4. COPIE DES DOTFILES
 # ══════════════════════════════════════════════════════════════════
