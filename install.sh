@@ -51,21 +51,6 @@ fi
 
 echo -e "${GREEN}[✔] Arch Linux détecté${NC}"
 
-# Vérification des fichiers requis
-REQUIRED_FILES=(
-    "pacman.conf"
-)
-
-for f in "${REQUIRED_FILES[@]}"; do
-    if [[ ! -f "$DOTS/$f" ]]; then
-        echo -e "${RED}[✘] Fichier requis manquant : $f${NC}"
-        echo -e "${RED}    Assure-toi de lancer le script depuis le bon répertoire.${NC}"
-        exit 1
-    fi
-done
-
-echo -e "${GREEN}[✔] Fichiers requis présents${NC}"
-
 # ══════════════════════════════════════════════════════════════════
 #  2. INSTALLATION DES PAQUETS OFFICIELS
 # ══════════════════════════════════════════════════════════════════
@@ -160,10 +145,7 @@ PACMAN_PKGS=(
 echo -e "${YELLOW}Installation de ${#PACMAN_PKGS[@]} paquets pacman...${NC}"
 sudo pacman -S --needed --noconfirm "${PACMAN_PKGS[@]}"
 
-# Copie de pacman.conf
-echo -e "${CYAN}  Copie de pacman.conf...${NC}"
-sudo cp "$DOTS/pacman.conf" /etc/pacman.conf
-echo -e "${GREEN}  [✔] pacman.conf copié${NC}"
+
 
 # ══════════════════════════════════════════════════════════════════
 #  3. INSTALLATION YAY + PAQUETS AUR
