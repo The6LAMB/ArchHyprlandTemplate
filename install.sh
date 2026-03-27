@@ -166,9 +166,6 @@ else
 fi
 
 AUR_PKGS=(
-    # Apps
-    brave-bin
-
     # JetBrains IDEs
     pycharm-professional
     webstorm
