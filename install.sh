@@ -168,18 +168,17 @@ fi
 AUR_PKGS=(
     # Apps
     brave-bin
-    visual-studio-code-bin
+
+    # JetBrains IDEs
+    pycharm-professional
+    webstorm
+    clion
+    intellij-idea-ultimate-edition
+    jetbrains-toolbox
 
     # Thèmes
     whitesur-cursor-theme
     whitesur-gtk-theme
-
-    # Fonts
-    ttf-red-hat-display
-    ttf-red-hat-mono
-
-    # Spicetify
-    spicetify-cli
 )
 
 echo -e "${YELLOW}Installation de ${#AUR_PKGS[@]} paquets AUR...${NC}"
